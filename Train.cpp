@@ -2461,6 +2461,18 @@ cout<<"0.2<=w<0.4"<<" : "<<dn2/possaturatedweight2*100<<", "<<  dn2n/negsaturate
 cout<<"0.4<=w<0.6"<<" : "<<dn3/possaturatedweight3*100<<", "<<  dn3n/negsaturatedweight3*100<<", "<<dn32/nonsaturatedweight3*100<<endl;
 cout<<"0.6<=w<0.8"<<" : "<<dn4/possaturatedweight4*100<<", "<< dn4n/negsaturatedweight4*100<<", "<<dn42/nonsaturatedweight4*100<<endl;
 cout<<"0.8<=w<=1"<<" : "<<dn5/possaturatedweight5*100<<", "<<  dn5n/negsaturatedweight5*100<<", "<<dn52/nonsaturatedweight5*100<<endl;
+		
+		cout<<"destructivenesscount"<<endl;
+cout<<"-1<=w<-0.8"<<" : "<<dnm5<<", "<<dnm5n<<", "<<dnm52<<endl;
+cout<<"-0.8<=w<-0.6"<<" : "<<dnm4<<", "<< dnm4n<<", "<<dnm42<<endl;
+cout<<"-0.6<=w<-0.4"<<" : "<<dnm3<<", "<< dnm3n<<", "<<dnm32<<endl;
+cout<<"-0.4<=w<-0.2"<<" : "<<dnm2<<", "<<  dnm2n<<", "<<dnm22<<endl;
+cout<<"-0.2<=w<0"<<" : "<<dnm1<<", "<<  dnm1n<<", "<<dnm12<<endl;
+cout<<"0<=w<-0.2"<<" : "<<dn1<<", "<<  dn1n<<", "<<dn12<<endl;
+cout<<"0.2<=w<0.4"<<" : "<<dn2<<", "<<  dn2n<<", "<<dn22<<endl;
+cout<<"0.4<=w<0.6"<<" : "<<dn3<<", "<<  dn3n<<", "<<dn32<<endl;
+cout<<"0.6<=w<0.8"<<" : "<<dn4<<", "<< dn4n<<", "<<dn42<<endl;
+cout<<"0.8<=w<=1"<<" : "<<dn5<<", "<<  dn5n<<", "<<dn52<<endl;
 
 	
 
