@@ -716,7 +716,7 @@ void RealDevice::newWrite(double deltaWeightNormalized, double weight, double mi
 	double pcondrange = pmaxConductance - pminConductance;
 	double ncondrange = nmaxConductance - nminConductance;
 	double deltaWeightSign;
-	double realupdate
+	double realupdate;
 	
 	bool GpGnCell = true;
 	if (positiveupdate && (deltaWeightNormalized > 0)) {	// + reverse update
