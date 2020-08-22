@@ -700,7 +700,7 @@ void RealDevice::Write(double deltaWeightNormalized, double weight, double minWe
 	if((conductanceNew - conductancePrev) >0)
 	destructiveness = ( (conductanceNew - conductancePrev) - realupdate / realupdate );
 	else
-	destructiveness = ( (conductancePrev - conductanceNew) - realupdate / realupdate );	
+	destructiveness = ( (conductancePrev - conductanceNew) - realupdate / realupdate ) ;	
 	if((conductancePrev * conductanceNew) <0) polaritychange++;
 	conductance = conductanceNew;
 
