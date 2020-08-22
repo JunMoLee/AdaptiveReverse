@@ -393,11 +393,11 @@ RealDevice::RealDevice(int x, int y, double p, double n, int l) {
 	maxConductance=0; // in case of unwanted situations
 	minConductance=0;
 	pminConductance = 0;
-	pmaxConductance = param->tp;		// Maximum cell conductance (S)
+	pmaxConductance = 1000;		// Maximum cell conductance (S)
 	const double
 	tn=12.5;
 	nminConductance =0; 
-	nmaxConductance = param->tn;
+	nmaxConductance = 1000;
 	refConductance = param->tp;
 	
 	// Minimum cell conductance (S)
