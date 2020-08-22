@@ -938,7 +938,7 @@ void RealDevice::newWrite(double deltaWeightNormalized, double weight, double mi
 	conductanceGn = conductanceNewGn;
 	conductanceNew = conductanceNewGp - conductanceNewGn + refConductance;
 		if (realupdate == 0)
-destructiveness+= ;
+destructiveness+= 0;
 	else{
 		
 	if( (conductanceNew - conductancePrev)>0 )
