@@ -151,7 +151,8 @@ public:
 	int momentumunitsum = 0;
 	
 	/* destructiveness tracker */
-	double destructiveness;
+	double destructiveness=0;
+	double descounter=0;
 };
 
 class SRAM: public Cell {
