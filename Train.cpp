@@ -3011,18 +3011,7 @@ cout<<"0.8<=w<1 : "<<location5count/weight5count<<endl; */
 		
 		
 		
-		double countGprange =0;
-		double countGpweightrange=0;
-		double countGnrange =0;
-		double countGnweightrange=0;
-		double locationnumberspecifier=0;
-		double locationnumberspecifier2=0;
-		double locationnumberspecifier3=0;
-		double locationnumberspecifier4=0;
-		double locationnumberspecifier5=0;
-		double locationnumberspecifier6=0;
-		double weightlocationspecifierGp=0;
-		double weightlocationspecifierGn=0;
+
 				 for (int m=0; m<param->nHide; m++) {
 			for (int n=0; n<param->nInput;n++){
 				
