@@ -716,6 +716,7 @@ destructiveness=0;
 		 destructiveness = (  realupdate - (conductancePrev - conductanceNew)) / realupdate ;
 	
 	}
+	}
 	if((conductancePrev * conductanceNew) <0) polaritychange++;
 	conductance = conductanceNew;
 
@@ -951,6 +952,7 @@ destructiveness=0;
 	 else
 		 destructiveness = (  realupdate - (conductancePrev - conductanceNew)) / realupdate ;
 	
+	}
 	}
 	if((conductancePrev * conductanceNew) <0) polaritychange++;
 	conductance = conductanceNew;
