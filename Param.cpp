@@ -356,7 +356,7 @@ param_gn=-1;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.2;
+	saturationprotector=0.1;
 	destructionprotector=0.18;
 	deltaweightratio=1.7;
 break;
@@ -380,8 +380,8 @@ param_gn=-1;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=1.7;
-	destructionprotector=1.7;
+	saturationprotector=0.5;
+	destructionprotector=0.18;
 	deltaweightratio=1.7;
 break;
 case 2:
@@ -404,7 +404,7 @@ param_gn=-1;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=1.7;
+	saturationprotector=0.9;
 	destructionprotector=0.18;
 	deltaweightratio=1.7;
 break;
@@ -428,33 +428,33 @@ param_gn=-1;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.16;
-	destructionprotector=0.16;
+	saturationprotector=1.3;
+	destructionprotector=0.18;
 	deltaweightratio=1.7;
 break;
 case 4:
 
 		param_gp=1;
-param_gn=-9;
-		learningrate[0][0] =0.3;
-	learningrate[0][1] = 0.3;
-	learningrate[0][2] = 0.15;
+param_gn=-1;
+		learningrate[0][0] =0.2;
+	learningrate[0][1] = 0.2;
+	learningrate[0][2] = 0.2;
 	learningrate[0][3] = 0.2;
 		
-	learningrate[1][0] = 0.3;
-	learningrate[1][1] = 0.3;
-	learningrate[1][2] = 0.15;
+	learningrate[1][0] = 0.2;
+	learningrate[1][1] = 0.2;
+	learningrate[1][2] = 0.2;
 	learningrate[1][3] = 0.2;
-		newUpdateRate=3;
-		nnewUpdateRate=3;
+		newUpdateRate=2;
+		nnewUpdateRate=2;
 
 
 		RefreshRate = 4000;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.2;
-	destructionprotector=0.16;
+	saturationprotector=1.7;
+	destructionprotector=0.18;
 	deltaweightratio=1.7;
 break;
 case 5:
