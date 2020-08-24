@@ -356,7 +356,7 @@ param_gn=-5;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.8;
+	saturationprotector=1.2;
 	destructionprotector=0;
 	deltaweightratio=1.2;
 break;
