@@ -2592,16 +2592,16 @@ a102 = (negsaturatedweight5 > 0)? dn5n/8000:0;
 a103 = (nonsaturatedweight5 > 0)? dn12/8000 : 0;	
 		
 cout<<"saturated weight count"<<endl;
-cout<<"-1<=w<-0.8"<<" : "<<possaturatedweightm5<<", "<< negsaturatedweightm5<<endl;
-cout<<"-0.8<=w<-0.6"<<" : "<<possaturatedweightm4<<", "<< negsaturatedweightm4<<endl;
-cout<<"-0.6<=w<-0.4"<<" : "<<possaturatedweightm3<<", "<< negsaturatedweightm3<<endl;
-cout<<"-0.4<=w<-0.2"<<" : "<<possaturatedweightm2<<", "<<  negsaturatedweightm2<<endl;
-cout<<"-0.2<=w<0"<<" : "<<possaturatedweightm1<<", "<<  negsaturatedweightm1<<endl;
-cout<<"0<=w<-0.2"<<" : "<<possaturatedweight1<<", "<<  negsaturatedweight1<<endl;
-cout<<"0.2<=w<0.4"<<" : "<<possaturatedweight2<<", "<<  negsaturatedweight2<<endl;
-cout<<"0.4<=w<0.6"<<" : "<<possaturatedweight3<<", "<<  negsaturatedweight3<<endl;
-cout<<"0.6<=w<0.8"<<" : "<<possaturatedweight4<<", "<< negsaturatedweight4<<endl;
-cout<<"0.8<=w<=1"<<" : "<<possaturatedweight5<<", "<<  negsaturatedweight5<<endl;	
+		cout<<"-1<=w<-0.8"<<" : "<<possaturatedweightm5<<", "<< negsaturatedweightm5<<endl;
+cout<<"-0.8<=w<-0.6"<<" : "<<", "<<possaturatedweightm4<<", "<< negsaturatedweightm4<<", "<<nonsaturatedweightm4<<endl;
+cout<<"-0.6<=w<-0.4"<<" : "<<", "<<possaturatedweightm3<<", "<< negsaturatedweightm3<<", "<<nonsaturatedweightm3<<endl;
+cout<<"-0.4<=w<-0.2"<<" : "<<", "<<possaturatedweightm2<<", "<<  negsaturatedweightm2<<", "<<nonsaturatedweightm2<<endl;
+cout<<"-0.2<=w<0"<<" : "<<", "<<possaturatedweightm1<<", "<<  negsaturatedweightm1<<", "<<nonsaturatedweightm1<<endl;
+cout<<"0<=w<-0.2"<<" : "<<", "<<", "<<possaturatedweight1<<", "<<  negsaturatedweight1<<", "<<nonsaturatedweight1<<endl;
+cout<<"0.2<=w<0.4"<<" : "<<", "<<possaturatedweight2<<", "<<  negsaturatedweight2<<", "<<nonsaturatedweight2<<endl;
+cout<<"0.4<=w<0.6"<<" : "<<", "<<possaturatedweight3<<", "<<  negsaturatedweight3<<", "<<nonsaturatedweight3<<endl;
+cout<<"0.6<=w<0.8"<<" : "<<", "<<possaturatedweight4<<", "<< negsaturatedweight4<<", "<<nonsaturatedweight4<<endl;
+cout<<"0.8<=w<=1"<<" : "<<", "<<possaturatedweight5<<", "<<  negsaturatedweight5<<", "<<nonsaturatedweight5<<endl;	
 		
 		
 cout<<"destructivenesscount"<<endl;
