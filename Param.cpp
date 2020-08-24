@@ -380,8 +380,8 @@ param_gn=-1;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.2;
-	destructionprotector=0.16;
+	saturationprotector=1.7;
+	destructionprotector=1.7;
 	deltaweightratio=1.7;
 break;
 case 2:
@@ -404,7 +404,7 @@ param_gn=-1;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.2;
+	saturationprotector=1.7;
 	destructionprotector=0.18;
 	deltaweightratio=1.7;
 break;
@@ -428,7 +428,7 @@ param_gn=-1;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.2;
+	saturationprotector=0.16;
 	destructionprotector=0.16;
 	deltaweightratio=1.7;
 break;
@@ -453,9 +453,9 @@ param_gn=-9;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=3;
-	destructionprotector=0;
-	deltaweightratio=1;
+	saturationprotector=0.2;
+	destructionprotector=0.16;
+	deltaweightratio=1.7;
 break;
 case 5:
 param_gp=3;
