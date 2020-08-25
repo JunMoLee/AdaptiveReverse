@@ -2801,7 +2801,7 @@ cout<<"0.4<=w<0.6"<<" : "<<a81<<", "<< a82<<", "<<a83<<endl;
 cout<<"0.6<=w<0.8"<<" : "<<a91<<", "<< a92<<", "<<a93<<endl;
 cout<<"0.8<=w<=1"<<" : "<<a101<<", "<< a102<<", "<<a103<<endl;
 		
-cout<<"possatnegsatcount<<endl;
+cout<<"possatnegsatcount"<<endl;
 cout<<possatpsm5<<", "<<negsatpsm5<<", "<<possatnsm5<<", "<<negsatnsm5<<", "<<possatnonm5<<", "<<negsatnonm5<<endl;
 cout<<possatpsm4<<", "<<negsatpsm4<<", "<<possatnsm4<<", "<<negsatnsm4<<", "<<possatnonm4<<", "<<negsatnonm4<<endl;
 cout<<possatpsm3<<", "<<negsatpsm3<<", "<<possatnsm3<<", "<<negsatnsm3<<", "<<possatnonm3<<", "<<negsatnonm3<<endl;
