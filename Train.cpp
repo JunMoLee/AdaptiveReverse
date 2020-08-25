@@ -2514,7 +2514,6 @@ double s2[param->nOutput];  // Output delta from hidden layer to the output laye
 				double normalweight = weight2[m][n];
 				if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsatcount){
 					
-if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsatcount){
 					
 				if((-1<=satweight)&&(satweight<-0.8))
 				{negsaturatedweightm5++;
