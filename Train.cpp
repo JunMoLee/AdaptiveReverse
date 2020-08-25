@@ -2850,7 +2850,7 @@ readx<<"0.8<=w<=1"<<" : "<<", "<<a101<<", "<< a102<<", "<<a103<<endl;
 		string filenamez="lastdestruct";
 		ready.open(filenamez+ ".csv",std::ios_base::app);
 		ready << "epoch"<<", "<<epochcount<<endl;
-					cout<<"possatnegsatcount<<endl;
+					cout<<"possatnegsatcount"<<endl;
 ready<<possatpsm5<<", "<<negsatpsm5<<", "<<possatnsm5<<", "<<negsatnsm5<<", "<<possatnonm5<<", "<<negsatnonm5<<endl;
 ready<<possatpsm4<<", "<<negsatpsm4<<", "<<possatnsm4<<", "<<negsatnsm4<<", "<<possatnonm4<<", "<<negsatnonm4<<endl;
 ready<<possatpsm3<<", "<<negsatpsm3<<", "<<possatnsm3<<", "<<negsatnsm3<<", "<<possatnonm3<<", "<<negsatnonm3<<endl;
