@@ -651,6 +651,9 @@ void RealDevice::Write(double deltaWeightNormalized, double weight, double minWe
 		negsatcount=1;
 		conductanceNewGn = nminConductance;
 	}
+		else 
+	{possatcount=0;
+		negsatcount=0;}
 
 	/* Write latency calculation */
 	if (!nonIdenticalPulse) {	// Identical write pulse scheme
@@ -891,6 +894,9 @@ void RealDevice::newWrite(double deltaWeightNormalized, double weight, double mi
 		negsatcount=1;
 		conductanceNewGn = nminConductance;
 	}
+	else 
+	{possatcount=0;
+		negsatcount=0;}
 	
 	/* Write latency calculation */
 	if (!nonIdenticalPulse) {	// Identical write pulse scheme
