@@ -230,7 +230,7 @@ for (int r=0; r<100; r++){
 	adaptivemomentum = am/10000;
 	adaptivesplitGth1=1;
 	adaptivesplitGth2=7;
-	usesplit = 1;
+	usesplit = 0;
 	Gth1=1;
 	Gth2=7;
 	Gth1weight=1;
@@ -337,81 +337,10 @@ a=0;
 
 switch(a){
 case 0:
-		param_gp=1;
-param_gn=-9;
-		learningrate[0][0] =0.3;
-	learningrate[0][1] = 0.3;
-	learningrate[0][2] = 0.15;
-	learningrate[0][3] = 0.15;
 		
-	learningrate[1][0] = 0.3;
-	learningrate[1][1] = 0.3;
-	learningrate[1][2] = 0.15;
-	learningrate[1][3] = 0.15;
-		newUpdateRate=3;
-		nnewUpdateRate=3;
-
-
-		RefreshRate = 4000;
-		ReverseUpdate = 1;
-
-	FullRefresh= 0;
-	saturationprotector=0.3;
-	destructionprotector=0.15;
-	deltaweightratio=1;
-break;
-case 1:
-				param_gp=1;
-param_gn=-9;
-		learningrate[0][0] =0.3;
-	learningrate[0][1] = 0.3;
-	learningrate[0][2] = 0.15;
-	learningrate[0][3] = 0.1;
+param_gp=1;
+param_gn=-1;
 		
-	learningrate[1][0] = 0.3;
-	learningrate[1][1] = 0.3;
-	learningrate[1][2] = 0.15;
-	learningrate[1][3] = 0.15;
-		newUpdateRate=3;
-		nnewUpdateRate=3;
-
-
-		RefreshRate = 4000;
-		ReverseUpdate = 1;
-
-	FullRefresh= 0;
-	saturationprotector=3;
-	destructionprotector=0.15;
-	deltaweightratio=1;
-break;
-case 2:
-		param_gp=1;
-param_gn=-9;
-		learningrate[0][0] =0.3;
-	learningrate[0][1] = 0.3;
-	learningrate[0][2] = 0.15;
-	learningrate[0][3] = 0.15;
-		
-	learningrate[1][0] = 0.3;
-	learningrate[1][1] = 0.3;
-	learningrate[1][2] = 0.15;
-	learningrate[1][3] = 0.15;
-		newUpdateRate=3;
-		nnewUpdateRate=3;
-
-
-		RefreshRate = 100;
-		ReverseUpdate = 1;
-
-	FullRefresh= 0;
-	saturationprotector=3;
-	destructionprotector=0;
-	deltaweightratio=1;
-	
-break;
-case 3:
-	param_gp=2;
-param_gn=-5;
 		learningrate[0][0] =0.2;
 	learningrate[0][1] = 0.2;
 	learningrate[0][2] = 0.2;
@@ -425,13 +354,112 @@ param_gn=-5;
 		nnewUpdateRate=2;
 
 
-		RefreshRate = 100;
-		ReverseUpdate = 0;
+		RefreshRate = 4000;
+		ReverseUpdate = 1;
 
-	FullRefresh= 1;
-	saturationprotector=1.3;
+	FullRefresh= 0;
+	saturationprotector=0.2
 	destructionprotector=0.18;
 	deltaweightratio=1.7;
+	usesplit = 1;
+	Gth1=1;
+	Gth2=7;
+	Gth1weight=1;
+	Gth2weight=7;
+	unitcellsplit=1;
+break;
+case 1:
+		
+param_gp=1;
+param_gn=-9;
+		
+	learningrate[0][0] =0.3;
+	learningrate[0][1] = 0.3;
+	learningrate[0][2] = 0.15;
+	learningrate[0][3] = 0.2;
+		
+	learningrate[1][0] = 0.3;
+	learningrate[1][1] = 0.3;
+	learningrate[1][2] = 0.15;
+	learningrate[1][3] = 0.2;
+		newUpdateRate=3;
+		nnewUpdateRate=3;
+
+
+		RefreshRate = 4000;
+		ReverseUpdate = 1;
+
+	FullRefresh= 0;
+	saturationprotector=2.7;
+	destructionprotector=0;
+	deltaweightratio=1;
+	usesplit = 1;
+	Gth1=1;
+	Gth2=7;
+	Gth1weight=1;
+	Gth2weight=7;
+	unitcellsplit=1;
+break;
+case 2:
+param_gp=1;
+param_gn=-3;
+	learningrate[0][0] =0.3;
+	learningrate[0][1] = 0.3;
+	learningrate[0][2] = 0.3;
+	learningrate[0][3] = 0.3;
+		
+	learningrate[1][0] = 0.3;
+	learningrate[1][1] = 0.3;
+	learningrate[1][2] = 0.3;
+	learningrate[1][3] = 0.3;
+		newUpdateRate=2;
+		nnewUpdateRate=2;
+
+
+		RefreshRate = 100;
+		ReverseUpdate = 1;
+
+	FullRefresh= 0;
+	saturationprotector=0.8;
+	destructionprotector=0;
+	deltaweightratio=1.2;
+		usesplit = 1;
+	Gth1=2;
+	Gth2=8;
+	Gth1weight=2;
+	Gth2weight=8;
+	unitcellsplit=1;
+	
+break;
+case 3:
+	param_gp=2;
+param_gn=-5;
+		learningrate[0][0] =0.3;
+	learningrate[0][1] = 0.3;
+	learningrate[0][2] = 0.3;
+	learningrate[0][3] = 0.3;
+		
+	learningrate[1][0] = 0.3;
+	learningrate[1][1] = 0.3;
+	learningrate[1][2] = 0.3;
+	learningrate[1][3] = 0.3;
+		newUpdateRate=3;
+		nnewUpdateRate=3;
+
+
+		RefreshRate = 100;
+		ReverseUpdate = 1;
+
+	FullRefresh= 0;
+	saturationprotector=0.8;
+	destructionprotector=0;
+	deltaweightratio=1.2;
+		usesplit = 1;
+	Gth1=2;
+	Gth2=8;
+	Gth1weight=2;
+	Gth2weight=8;
+	unitcellsplit=1;
 break;
 case 4:
 
@@ -451,14 +479,39 @@ param_gn=-1;
 
 
 		RefreshRate = 100;
-		ReverseUpdate = 0;
+		ReverseUpdate = 1;
 
-	FullRefresh= 1;
+	FullRefresh= 0;
 	saturationprotector=1.7;
 	destructionprotector=0.18;
 	deltaweightratio=1.7;
 break;
 case 5:
+param_gp=1;
+param_gn=-9;
+		learningrate[0][0] =0.3;
+	learningrate[0][1] =0.3;
+	learningrate[0][2] =0.15;
+	learningrate[0][3] =0.2;
+		
+	learningrate[1][0] =0.3;
+	learningrate[1][1] =0.3;
+	learningrate[1][2]=0.15;
+	learningrate[1][3] =0.2;
+		newUpdateRate=6;
+		nnewUpdateRate=2;
+
+
+		RefreshRate = 100;
+		ReverseUpdate = 1;
+
+	FullRefresh= 0;
+	saturationprotector=0.8;
+	destructionprotector=0;
+	deltaweightratio=1.2;
+break;
+
+case 6:
 param_gp=1;
 param_gn=-3;
 		learningrate[0][0] =0.3;
@@ -482,14 +535,29 @@ param_gn=-3;
 	destructionprotector=0;
 	deltaweightratio=1.2;
 break;
-
-case 6:
-param_gp=3;
-param_gn=-1;
-break;
 case 7:
-param_gp=9;
-param_gn=-1;
+param_gp=2;
+param_gn=-5;
+		learningrate[0][0] =0.3;
+	learningrate[0][1] =0.3;
+	learningrate[0][2] =0.3;
+	learningrate[0][3] =0.3;
+		
+	learningrate[1][0] =0.3;
+	learningrate[1][1] =0.3;
+	learningrate[1][2]=0.3;
+	learningrate[1][3] =0.3;
+		newUpdateRate=3;
+		nnewUpdateRate=3;
+
+
+		RefreshRate = 100;
+		ReverseUpdate = 1;
+
+	FullRefresh= 0;
+	saturationprotector=0.8;
+	destructionprotector=0;
+	deltaweightratio=1.2;
 break;
 case 8:
 param_gp=8;
