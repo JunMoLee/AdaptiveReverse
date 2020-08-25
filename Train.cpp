@@ -2846,7 +2846,7 @@ readx<<"0.8<=w<=1"<<" : "<<", "<<a101<<", "<< a102<<", "<<a103<<endl;
 
 			
 		ofstream ready;
-		string filenamez="lastdestruct";
+		string filenamez="lastsatcount";
 		ready.open(filenamez+ ".csv",std::ios_base::app);
 		ready << "epoch"<<", "<<epochcount<<endl;
 					cout<<"possatnegsatcount"<<endl;
