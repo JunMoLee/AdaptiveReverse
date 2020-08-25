@@ -626,7 +626,7 @@ void RealDevice::Write(double deltaWeightNormalized, double weight, double minWe
 		positivesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=1;
 		negsatcount=0;
-		if(deltaWeightSign >0) possat++;
+		possat++;
 		conductanceNewGp = pmaxConductance;
 		
 	} else if (conductanceNewGp < pminConductance) {
@@ -634,6 +634,7 @@ void RealDevice::Write(double deltaWeightNormalized, double weight, double minWe
 		negativesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=0;
 		negsatcount=1;
+		negsat++;
 		conductanceNewGp = pminConductance;
 	}
 	if (conductanceNewGn > nmaxConductance) {
@@ -641,7 +642,7 @@ void RealDevice::Write(double deltaWeightNormalized, double weight, double minWe
 		positivesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=1;
 		negsatcount=0;
-		if(deltaWeightSign <0) negsat++;
+		possat++;
 		conductanceNewGn = nmaxConductance;
 	}
 	else if (conductanceNewGn < nminConductance) {
@@ -649,6 +650,7 @@ void RealDevice::Write(double deltaWeightNormalized, double weight, double minWe
 		negativesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=0;
 		negsatcount=1;
+		negsat++;
 		conductanceNewGn = nminConductance;
 	}
 		else 
@@ -869,6 +871,7 @@ void RealDevice::newWrite(double deltaWeightNormalized, double weight, double mi
 		positivesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=1;
 		negsatcount=0;
+		possat++;
 		if(deltaWeightSign >0) possat++;
 		conductanceNewGp = pmaxConductance;
 		
@@ -877,6 +880,7 @@ void RealDevice::newWrite(double deltaWeightNormalized, double weight, double mi
 		negativesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=0;
 		negsatcount=1;
+		negsat++;
 		conductanceNewGp = pminConductance;
 	}
 	if (conductanceNewGn > nmaxConductance) {
@@ -884,6 +888,7 @@ void RealDevice::newWrite(double deltaWeightNormalized, double weight, double mi
 		positivesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=1;
 		negsatcount=0;
+		possat++;
 		if(deltaWeightSign <0) negsat++;
 		conductanceNewGn = nmaxConductance;
 	}
@@ -892,6 +897,7 @@ void RealDevice::newWrite(double deltaWeightNormalized, double weight, double mi
 		negativesaturatedweight = (conductanceGp - conductanceGn)/10;
 		possatcount=0;
 		negsatcount=1;
+		negsat++;
 		conductanceNewGn = nminConductance;
 	}
 	else 
