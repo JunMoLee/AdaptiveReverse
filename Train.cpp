@@ -197,7 +197,7 @@ double s2[param->nOutput];  // Output delta from hidden layer to the output laye
 	
 		     
 	for (int t = 0; t < epochs; t++) {
-
+vector <double> activation (100,0);
 
 		for (int batchSize = 0; batchSize < numTrain; batchSize++) {
 
@@ -1938,6 +1938,9 @@ double s2[param->nOutput];  // Output delta from hidden layer to the output laye
 				                           if( param -> allocationmethodIH>maxallocationmethodIH) param -> allocationmethodIH=0;
 				 if( param -> allocationmethodHO>maxallocationmethodHO) param -> allocationmethodHO=0;}
 			
+			
+					for (int act = 0; act<100; act++){
+		activation[act] += a1[act];}
 	}   // end of weight update code for 1 cycle
 		
 		
@@ -3055,30 +3058,30 @@ readr<<"0.4<=w<0.6"<<" : "<<", "<< posstep3<<", "<< negstepm3<<endl;
 readr<<"0.6<=w<0.8"<<" : "<<", "<< posstep4<<", "<< negstep4<<endl;
 readr<<"0.8<=w<=1"<<" : "<<", "<< posstep5<<", "<< negstep5<<endl;
 		
-		double activationsum = 0;
-		double activationaverage = 0;
-		double activationstd = 0;
-		for (int act = 0; act<100; act++){
-		activationsum += a1[act];}
-		activationaverage = activationsum/100;
-		for (int act = 0; act<100; act++){
-		activationstd += (a1[act] - activationaverage ) *  (a1[act] - activationaverage );
-		}
-		activationstd = activationstd / 100;
-		cout << "activation"<<endl;
-		cout<< activationaverage <<endl;
-		cout <<activationstd<<endl;
+
+
 		
+		
+		
+	
+		
+	
 					ofstream reade;
-		string filenamem="actcount";
+		string filenamem="activationdistribution";
 		reade.open(filenamem+ ".csv",std::ios_base::app);
-		reade << "epoch"<<", "<<epochcount<<endl;
-					cout<<"actcount"<<endl;	
+		reade << "epoch"<<", "<<epochcount<<endl;	
+		reade << "activation"<<endl;
+		for (int act = 0; act<100; act++){
+		reade<<activation[act]/8000<<endl;
+		}
 		
-			cout << "activation"<<endl;
-		reade << activationaverage <<endl;
-		reade <<activationstd<<endl;
 		
+		cout << "activation"<<endl;
+		for (int act = 0; act<100; act++){
+		cout<<activation[act]/8000<<endl;
+		}
+		
+	
 		// count polarity change
 			
 	/*	for (int m=0; m<param->nHide; m++) {
