@@ -2314,8 +2314,7 @@ double s2[param->nOutput];  // Output delta from hidden layer to the output laye
 		cout<<"count [L.N(Gp)+L.N(Gn) = 4 middle] : "<<locationnumberspecifier5<<endl;
 		cout<<"count [L.N(Gp)+L.N(Gn) = 4 high low] : "<<locationnumberspecifier6<<endl;
 				
-
-		for (int m=0; m<param->nHide; m++) {
+	for (int m=0; m<param->nHide; m++) {
 			for (int n=0; n<param->nInput;n++){	
 				
 				double satweight = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->positivesaturatedweight + static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negativesaturatedweight;
@@ -2819,7 +2818,7 @@ cout<<possatps4<<", "<<negsatps4<<", "<<possatns4<<", "<<negsatns4<<", "<<possat
 cout<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possatnon5<<", "<<negsatnon5<<endl;
 
 		ofstream read;
-		string filename="lastprob";
+		string filename="reallastprob";
 		read.open(filename+ ".csv",std::ios_base::app);
 		read << "epoch"<<", "<<epochcount<<endl;
 		read <<"IH"<<", "<< countGpweightrange/countGprange <<", "<<"HO"<<", "<<weightlocationspecifierGn/countGnrange<<endl;
@@ -2836,7 +2835,7 @@ read<<"0.8<=w<=1"<<" : "<<", "<<possaturatedweight5<<", "<<  negsaturatedweight5
 
 
 				ofstream readx;
-		string filenamey="lastdestruct";
+		string filenamey="reallastprob";
 		readx.open(filenamey+ ".csv",std::ios_base::app);
 		readx << "epoch"<<", "<<epochcount<<endl;
 readx<<"-1<=w<-0.8"<<" : "<<", "<<a11 <<", "<<a12<<", "<<a13<<endl;
@@ -2852,7 +2851,7 @@ readx<<"0.8<=w<=1"<<" : "<<", "<<a101<<", "<< a102<<", "<<a103<<endl;
 
 			
 		ofstream ready;
-		string filenamez="lastsatcount";
+		string filenamez="reallastsatcount";
 		ready.open(filenamez+ ".csv",std::ios_base::app);
 		ready << "epoch"<<", "<<epochcount<<endl;
 					cout<<"possatnegsatcount"<<endl;
@@ -2865,7 +2864,7 @@ ready<<possatps1<<", "<<negsatps1<<", "<<possatns1<<", "<<negsatns1<<", "<<possa
 ready<<possatps2<<", "<<negsatps2<<", "<<possatns2<<", "<<negsatns2<<", "<<possatnon2<<", "<<negsatnon2<<endl;
 ready<<possatps3<<", "<<negsatps3<<", "<<possatns3<<", "<<negsatns3<<", "<<possatnon3<<", "<<negsatnon3<<endl;
 ready<<possatps4<<", "<<negsatps4<<", "<<possatns4<<", "<<negsatns4<<", "<<possatnon4<<", "<<negsatnon4<<endl;
-ready<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possatnon5<<", "<<negsatnon5<<endl;
+ready<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possatnon5<<", "<<negsatnon5<<endl; 
 		
 		
 				ofstream readz;
