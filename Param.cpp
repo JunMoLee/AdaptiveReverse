@@ -436,13 +436,13 @@ case 3:
 param_gn=-5;
 		learningrate[0][0] =0.3;
 	learningrate[0][1] = 0.3;
-	learningrate[0][2] = 0.3;
-	learningrate[0][3] = 0.3;
+	learningrate[0][2] = 0.2;
+	learningrate[0][3] = 0.2;
 		
 	learningrate[1][0] = 0.3;
 	learningrate[1][1] = 0.3;
-	learningrate[1][2] = 0.3;
-	learningrate[1][3] = 0.3;
+	learningrate[1][2] = 0.2;
+	learningrate[1][3] = 0.2;
 		newUpdateRate=3;
 		nnewUpdateRate=3;
 
@@ -451,14 +451,14 @@ param_gn=-5;
 		ReverseUpdate = 1;
 
 	FullRefresh= 0;
-	saturationprotector=0.8;
+	saturationprotector=1.3;
 	destructionprotector=0;
-	deltaweightratio=1.2;
+	deltaweightratio=1.8;
 		usesplit = 1;
 	Gth1=2;
-	Gth2=8;
+	Gth2=7.5;
 	Gth1weight=2;
-	Gth2weight=8;
+	Gth2weight=7.5;
 	unitcellsplit=1;
 break;
 case 4:
