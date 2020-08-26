@@ -3038,16 +3038,16 @@ ready<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possa
 		readr << "epoch"<<", "<<epochcount<<endl;
 					cout<<"stepcount"<<endl;
 		
-			readr<<"-1<=w<-0.8"<<" : "<<possteptm5<<", "<< negstepm5<<endl;
-readr<<"-0.8<=w<-0.6"<<" : "<<", "<< possteptm4<<", "<< negstepm4<<endl;
-readr<<"-0.6<=w<-0.4"<<" : "<<", "<< possteptm3<<", "<< negstepm3<<endl;
-readr<<"-0.4<=w<-0.2"<<" : "<<", "<< possteptm2<<", "<< negstepm2<<endl;
-readr<<"-0.2<=w<0"<<" : "<<", "<< possteptm1<<", "<< negstepm1<<endl;
-readr<<"0<=w<-0.2"<<" : "<<", "<< posstept1<<", "<< negstep1<<endl;
-readr<<"0.2<=w<0.4"<<" : "<<", "<< posstept2<<", "<< negstep2<<endl;
-readr<<"0.4<=w<0.6"<<" : "<<", "<< posstept3<<", "<< negstepm3<<endl;
-readr<<"0.6<=w<0.8"<<" : "<<", "<< posstept4<<", "<< negstep4<<endl;
-readr<<"0.8<=w<=1"<<" : "<<", "<< posstept5<<", "<< negstep5<<endl;		
+			readr<<"-1<=w<-0.8"<<" : "<<posstepm5<<", "<< negstepm5<<endl;
+readr<<"-0.8<=w<-0.6"<<" : "<<", "<< posstepm4<<", "<< negstepm4<<endl;
+readr<<"-0.6<=w<-0.4"<<" : "<<", "<< posstepm3<<", "<< negstepm3<<endl;
+readr<<"-0.4<=w<-0.2"<<" : "<<", "<< posstepm2<<", "<< negstepm2<<endl;
+readr<<"-0.2<=w<0"<<" : "<<", "<< posstepm1<<", "<< negstepm1<<endl;
+readr<<"0<=w<-0.2"<<" : "<<", "<< posstep1<<", "<< negstep1<<endl;
+readr<<"0.2<=w<0.4"<<" : "<<", "<< posstep2<<", "<< negstep2<<endl;
+readr<<"0.4<=w<0.6"<<" : "<<", "<< posstep3<<", "<< negstepm3<<endl;
+readr<<"0.6<=w<0.8"<<" : "<<", "<< posstep4<<", "<< negstep4<<endl;
+readr<<"0.8<=w<=1"<<" : "<<", "<< posstep5<<", "<< negstep5<<endl;		
 		
 		
 		
