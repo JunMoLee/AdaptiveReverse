@@ -127,8 +127,8 @@ public:
 	void ResetCounter();
 	
 	/* track average step update */
-	int posstep=0;
-	int negstep=0;
+	double posstep=0;
+	double negstep=0;
 	
 	/* define area */
 	int areanum=0;
