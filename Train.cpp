@@ -2028,7 +2028,7 @@ vector <double> activation (100,0);
 			 }
 					 for (int m=0; m<param->nOutput; m++) {
 			for (int n=0; n<param->nHide;n++){
-		                cout<< (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep + static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep )/8000", ";
+		                cout<< (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep + static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep )/8000<<", ";
 			}
 						 cout<<endl;
 					 }
