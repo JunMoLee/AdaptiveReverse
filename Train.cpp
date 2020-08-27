@@ -2020,6 +2020,18 @@ vector <double> activation (100,0);
 
 	} // end of weight tracking code
 // momentum tracker 
+			 for (int m=0; m<param->nHide; m++) {
+			for (int n=0; n<param->nInput;n++){
+				cout<<( static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep + static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep) /8000<<", ";
+			}
+				 cout<<endl;
+			 }
+					 for (int m=0; m<param->nOutput; m++) {
+			for (int n=0; n<param->nHide;n++){
+		                cout<< (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep + static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep )/8000", ";
+			}
+						 cout<<endl;
+					 }
 		
 		/* weight infromation tracking */
 	// deltaweight, polarity stabilization, momentum existence confirmation 
