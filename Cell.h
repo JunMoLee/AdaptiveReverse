@@ -125,6 +125,7 @@ public:
 	int possat=0;
 	int negsat=0;
 	void ResetCounter();
+	double nonzeroupdate=0;
 	
 	/* track average step update */
 	double posstep=0;
