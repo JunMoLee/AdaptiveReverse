@@ -273,6 +273,7 @@ momentumunitsum=0;
 momentumcyclecounter=0;	
 destructiveness=0;
 descounter=0;
+	nonzeroupdate=0;
 }
 
 std::vector<double> eNVM::weightanalyzer(){
