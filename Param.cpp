@@ -329,7 +329,7 @@ for (int r=0; r<100; r++){
 	RefreshRate = frr;
 
 	 // rate of new update algorithm implementation (per # of images)
-	
+	..................
 	
 const int
 a=0;
