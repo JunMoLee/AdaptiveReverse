@@ -3005,7 +3005,7 @@ a92 = (negsaturatedweight4 > 0)? dn4n/8000:0;
 a93 = (nonsaturatedweight4 > 0)? dn42/8000 : 0;
 a101 = (possaturatedweight5 > 0)? dn5/8000:0;
 a102 = (negsaturatedweight5 > 0)? dn5n/8000:0;
-a103 = (nonsaturatedweight5 > 0)? dn12/8000 : 0;	
+a103 = (nonsaturatedweight5 > 0)? dn52/8000 : 0;	
 		
 cout<<"saturated weight count"<<endl;
 		cout<<"-1<=w<-0.8"<<" : "<<possaturatedweightm5<<", "<< negsaturatedweightm5<<", "<<nonsaturatedweightm5<<endl;
