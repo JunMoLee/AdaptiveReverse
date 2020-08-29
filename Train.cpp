@@ -2020,7 +2020,7 @@ vector <double> activation (100,0);
 
 	} // end of weight tracking code
 // momentum tracker 
-			 for (int m=0; m<param->nHide; m++) {
+		/*	 for (int m=0; m<param->nHide; m++) {
 			for (int n=0; n<param->nInput;n++){
 				cout<<( static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep + static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep) /static_cast<AnalogNVM*>(arrayIH->cell[m][n])->nonzeroupdate<<", ";
 			}
@@ -2031,7 +2031,7 @@ vector <double> activation (100,0);
 		                cout<< (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep + static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep )/static_cast<AnalogNVM*>(arrayHO->cell[m][n])->nonzeroupdate<<", ";
 			}
 						 cout<<endl;
-					 }
+					 } */
 		
 		/* weight infromation tracking */
 	// deltaweight, polarity stabilization, momentum existence confirmation 
@@ -3057,7 +3057,7 @@ cout<<possatps4<<", "<<negsatps4<<", "<<possatns4<<", "<<negsatns4<<", "<<possat
 cout<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possatnon5<<", "<<negsatnon5<<endl;
 
 		ofstream read;
-		string filename="LDPprob";
+		string filename="REALLASTprob";
 		read.open(filename+ ".csv",std::ios_base::app);
 		read << "epoch"<<", "<<epochcount<<endl;
 		read <<"IH"<<", "<< countGpweightrange/countGprange <<", "<<"HO"<<", "<<weightlocationspecifierGn/countGnrange<<endl;
@@ -3074,7 +3074,7 @@ read<<"0.8<=w<=1"<<" : "<<", "<<possaturatedweight5<<", "<<  negsaturatedweight5
 
 
 				ofstream readx;
-		string filenamey="LDPdestruct";
+		string filenamey="REALLASTdestruct";
 		readx.open(filenamey+ ".csv",std::ios_base::app);
 		readx << "epoch"<<", "<<epochcount<<endl;
 readx<<"-1<=w<-0.8"<<" : "<<", "<<a11 <<", "<<a12<<", "<<a13<<endl;
@@ -3090,7 +3090,7 @@ readx<<"0.8<=w<=1"<<" : "<<", "<<a101<<", "<< a102<<", "<<a103<<endl;
 
 			
 		ofstream ready;
-		string filenamez="LDPsatcount";
+		string filenamez="REALLASTsatcount";
 		ready.open(filenamez+ ".csv",std::ios_base::app);
 		ready << "epoch"<<", "<<epochcount<<endl;
 					cout<<"possatnegsatcount"<<endl;
@@ -3107,7 +3107,7 @@ ready<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possa
 		
 		
 				ofstream readz;
-		string filenamet="LDPlocationcount";
+		string filenamet="REALLASTlocationcount";
 		readz.open(filenamet+ ".csv",std::ios_base::app);
 		readz << "epoch"<<", "<<epochcount<<endl;
 					cout<<"possatnegsatcount"<<endl;
@@ -3125,7 +3125,7 @@ ready<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possa
 		cout<< locationnumberspecifier/(possaturatedweightm1 + negsaturatedweightm1 + nonsaturatedweightm1 + possaturatedweight1 + negsaturatedweight1 + nonsaturatedweight1) << endl;
 		
 					ofstream readr;
-		string filenameq="LDPstepcount";
+		string filenameq="REALLASTstepcount";
 		readr.open(filenameq+ ".csv",std::ios_base::app);
 		readr << "epoch"<<", "<<epochcount<<endl;
 					cout<<"stepcount"<<endl;
