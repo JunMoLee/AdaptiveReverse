@@ -3057,7 +3057,7 @@ cout<<possatps4<<", "<<negsatps4<<", "<<possatns4<<", "<<negsatns4<<", "<<possat
 cout<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possatnon5<<", "<<negsatnon5<<endl;
 
 		ofstream read;
-		string filename="LASTprob";
+		string filename="LDPprob";
 		read.open(filename+ ".csv",std::ios_base::app);
 		read << "epoch"<<", "<<epochcount<<endl;
 		read <<"IH"<<", "<< countGpweightrange/countGprange <<", "<<"HO"<<", "<<weightlocationspecifierGn/countGnrange<<endl;
@@ -3074,7 +3074,7 @@ read<<"0.8<=w<=1"<<" : "<<", "<<possaturatedweight5<<", "<<  negsaturatedweight5
 
 
 				ofstream readx;
-		string filenamey="LASTdestruct";
+		string filenamey="LDPdestruct";
 		readx.open(filenamey+ ".csv",std::ios_base::app);
 		readx << "epoch"<<", "<<epochcount<<endl;
 readx<<"-1<=w<-0.8"<<" : "<<", "<<a11 <<", "<<a12<<", "<<a13<<endl;
@@ -3090,7 +3090,7 @@ readx<<"0.8<=w<=1"<<" : "<<", "<<a101<<", "<< a102<<", "<<a103<<endl;
 
 			
 		ofstream ready;
-		string filenamez="LASTsatcount";
+		string filenamez="LDPsatcount";
 		ready.open(filenamez+ ".csv",std::ios_base::app);
 		ready << "epoch"<<", "<<epochcount<<endl;
 					cout<<"possatnegsatcount"<<endl;
@@ -3107,13 +3107,13 @@ ready<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possa
 		
 		
 				ofstream readz;
-		string filenamet="LASTlocationcount";
+		string filenamet="LDPlocationcount";
 		readz.open(filenamet+ ".csv",std::ios_base::app);
 		readz << "epoch"<<", "<<epochcount<<endl;
 					cout<<"possatnegsatcount"<<endl;
 
 		
-		readz <<"P(areanumbersum = 4 | Gp,Gn>=Gth2/10) = "<< ", "<<weightlocationspecifierGp/countGprange<<", "<<weightlocationspecifierGn/countGnrange<<endl;
+		readz<< locationnumberspecifier/(possaturatedweightm1 + negsaturatedweightm1 + nonsaturatedweightm1 + possaturatedweight1 + negsaturatedweight1 + nonsaturatedweight1) << endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 2] : "<< ", "<<locationnumberspecifier<<endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 5] : "<< ", "<<locationnumberspecifier2<<endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 3] : "<< ", "<<locationnumberspecifier3<<endl;
@@ -3121,14 +3121,16 @@ ready<<possatps5<<", "<<negsatps5<<", "<<possatns5<<", "<<negsatns5<<", "<<possa
 		readz <<"count [L.N(Gp)+L.N(Gn) = 4 middle] : "<< ", "<<locationnumberspecifier5<<endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 4 high low] : "<< ", "<<locationnumberspecifier6<<endl;
 		
+		cout<< "LN sum 2 / low weight"<<endl;
+		cout<< locationnumberspecifier/(possaturatedweightm1 + negsaturatedweightm1 + nonsaturatedweightm1 + possaturatedweight1 + negsaturatedweight1 + nonsaturatedweight1) << endl;
 		
 					ofstream readr;
-		string filenameq="LASTstepcount";
+		string filenameq="LDPstepcount";
 		readr.open(filenameq+ ".csv",std::ios_base::app);
 		readr << "epoch"<<", "<<epochcount<<endl;
 					cout<<"stepcount"<<endl;
 		
-			readr<<"-1<=w<-0.8"<<" : "<<nonzerostepm5<<", "<< 0<<endl;
+			readr<<"-1<=w<-0.8"<<" : "<<", "<<nonzerostepm5<<", "<< 0<<endl;
 readr<<"-0.8<=w<-0.6"<<" : "<<", "<< nonzerostepm4<<", "<<0<<endl;
 readr<<"-0.6<=w<-0.4"<<" : "<<", "<< nonzerostepm3<<", "<< 0<<endl;
 readr<<"-0.4<=w<-0.2"<<" : "<<", "<< nonzerostepm2<<", "<< 0<<endl;
