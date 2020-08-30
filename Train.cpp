@@ -3207,7 +3207,7 @@ double weightover2=0;
 			    }
 			 }
 		      }
-				      
+	 cout<<"actover"<<", "<<actover<<", "<<"weightover"<<", "<<weightover<<", "<<"ratio"<<", "<<weightover/actover<<", "<<"actunder"<<", "<<actunder<<", "<<"weightoverifunder"<<", "<<weightover2<<", "<<"ratio"<<", "<<weightover2/actunder<<endl;	      
 		ofstream readaa;
 		string filenamemn="actprob";
 		readaa.open(filenamemn+ ".csv",std::ios_base::app);
