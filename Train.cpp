@@ -3186,7 +3186,7 @@ double weightover2=0;
 		      }
 				      
 				    for (int m=0; m<param->nHide; m++) {
-			if ((a1[m] > 0.3) || (a1[m] <0.7))
+			if ((a1[m] > 0.3) && (a1[m] <0.7))
 		         {actunder++;
 			      for (int n=0; n<param->nInput;n++){
 				
@@ -3198,7 +3198,7 @@ double weightover2=0;
 		
 		
 		    for (int m=0; m<param->nOutput; m++) {
-			if ((a2[m] > 0.3) || (a2[m] <0.7))
+			if ((a2[m] > 0.3)&& (a2[m] <0.7))
 		         {actunder++;
 			      for (int n=0; n<param->nHide;n++){
 				
