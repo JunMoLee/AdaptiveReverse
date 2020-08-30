@@ -3161,6 +3161,9 @@ double actover=0;
 double weightover=0;
 double actunder=0;
 double weightover2=0;
+double weightunder=0;
+		double weightunder2=0;
+	
 
 		    for (int m=0; m<param->nHide; m++) {
 			if ((a1[m] > 0.8) || (a1[m] <0.001))
@@ -3169,6 +3172,8 @@ double weightover2=0;
 				
 				     if((weight1[m][n]<-0.6) || (weight1[m][n]>0.6))
 				     {weightover++;}
+				      if((weight1[m][n]<0.2) && (weight1[m][n]>=-0.2))
+				     {weightunder++;}
 			    }
 			 }
 		      }
@@ -3181,6 +3186,8 @@ double weightover2=0;
 				
 				     if((weight2[m][n]<-0.6) || (weight2[m][n]>0.6))
 				     {weightover++;}
+				      if((weight2[m][n]<0.2) && (weight2[m][n]>=-0.2))
+				     {weightunder++;}
 			    }
 			 }
 		      }
@@ -3192,6 +3199,8 @@ double weightover2=0;
 				
 				     if((weight1[m][n]<-0.6) || (weight1[m][n]>0.6))
 				     {weightover2++;}
+				      if((weight1[m][n]<0.2) && (weight1[m][n]>=-0.2))
+				     {weightunder2++;}
 			    }
 			 }
 		      }
@@ -3204,6 +3213,8 @@ double weightover2=0;
 				
 				     if((weight2[m][n]<-0.6) || (weight2[m][n]>0.6))
 				     {weightover2++;}
+				      if((weight1[m][n]<0.2) && (weight1[m][n]>=-0.2))
+				     {weightunder2++;}
 			    }
 			 }
 		      }
@@ -3212,8 +3223,12 @@ double weightover2=0;
 		string filenamemn="actprob";
 		readaa.open(filenamemn+ ".csv",std::ios_base::app);
 		readaa<<"actover"<<", "<<actover<<", "<<"weightover"<<", "<<weightover<<", "<<"ratio"<<", "<<weightover/actover<<", "<<"actunder"<<", "<<actunder<<", "<<"weightoverifunder"<<", "<<weightover2<<", "<<"ratio"<<", "<<weightover2/actunder<<endl;
-		
 	
+		cout<<"actover"<<", "<<actover<<", "<<"weightunder"<<", "<<weightunder<<", "<<"ratio"<<", "<<weightunder/actover<<", "<<"actunder"<<", "<<actunder<<", "<<"weightoverifunder"<<", "<<weightunder2<<", "<<"ratio"<<", "<<weightunder2/actunder<<endl;
+	ofstream readyo;
+		string filenameyo="actprob";
+		readyo.open(filenameyo+ ".csv",std::ios_base::app);
+		readyo<<"actover"<<", "<<actover<<", "<<"weightunder"<<", "<<weightunder<<", "<<"ratio"<<", "<<weightunder/actover<<", "<<"actunder"<<", "<<actunder<<", "<<"weightoverifunder"<<", "<<weightunder2<<", "<<"ratio"<<", "<<weightunder2/actunder<<endl;
 		
 	
 		/*			ofstream reade;
