@@ -42,7 +42,7 @@
 
 Param::Param() {
 	
-	..................
+
 	/* Algorithm parameters */
 	numTrainImagesPerEpoch = 8000;	// # of training images per epoch
 	totalNumEpochs = 125;	// Total number of epochs
