@@ -176,23 +176,23 @@ double s2[param->nOutput];  // Output delta from hidden layer to the output laye
 	                       double adaptivemoment = param -> adaptivemomentum;
 	                       double adaptiveratio = param -> adaptiveratio;
 	                       int learningratesplit = param -> learningratesplit;
-	                   double Gth1 = param->Gth1;
-				                           double Gth2 = param->Gth2;
-	double Gth1weight = param -> Gth1weight;
-	double Gth2weight = param -> Gth2weight;
-	                     double Gth1pieceIH = Gth1 * areasizeIH;
-	                     double Gth2pieceIH= Gth2 * areasizeIH;
-	                     double Gth1pieceHO= Gth1 * areasizeHO;
-	                     double Gth2pieceHO = Gth2 * areasizeHO;
-	                     double adaptivesplitGth1 = param->adaptivesplitGth1;
-	                     double adaptivesplitGth2 = param->adaptivesplitGth2;
-	                     double adaptivesplitGth1pieceIH = Gth1 * areasizeIH;
-			     double adaptivesplitGth2pieceIH = Gth2 * areasizeIH;
-	                     double adaptivesplitGth1pieceHO = Gth1 * areasizeHO;
-	                     double adaptivesplitGth2pieceHO = Gth2 * areasizeHO;
-                             double saturationprotector = param->saturationprotector;
-	                     double destructionprotector = param->destructionprotector;
-	double deltaweightratio = param->deltaweightratio;
+	                       double Gth1 = param->Gth1;
+			       double Gth2 = param->Gth2;
+				     double Gth1weight = param -> Gth1weight;
+				     double Gth2weight = param -> Gth2weight;
+				     double Gth1pieceIH = Gth1 * areasizeIH;
+				     double Gth2pieceIH= Gth2 * areasizeIH;
+				     double Gth1pieceHO= Gth1 * areasizeHO;
+				     double Gth2pieceHO = Gth2 * areasizeHO;
+				     double adaptivesplitGth1 = param->adaptivesplitGth1;
+				     double adaptivesplitGth2 = param->adaptivesplitGth2;
+				     double adaptivesplitGth1pieceIH = Gth1 * areasizeIH;
+				     double adaptivesplitGth2pieceIH = Gth2 * areasizeIH;
+				     double adaptivesplitGth1pieceHO = Gth1 * areasizeHO;
+				     double adaptivesplitGth2pieceHO = Gth2 * areasizeHO;
+				     double saturationprotector = param->saturationprotector;
+				     double destructionprotector = param->destructionprotector;
+				     double deltaweightratio = param->deltaweightratio;
 				       
 	
 		     
@@ -1671,7 +1671,7 @@ vector <double> activation (100,0);
 				
 			} // end of full-reset code
 			
-
+              /* prepare recording */
 			
              /*           vector <int> possatsum(164000,0);
                                 vector <int> negsatsum(164000,0);
@@ -1933,14 +1933,16 @@ vector <double> activation (100,0);
 	    	
 			
 				if(((batchSize+numTrain*(epochcount-1)) % (int)(param->newUpdateRate/adNur))*param->ReverseUpdate*param->usealternatearea==((int)(param->newUpdateRate/adNur-1))){
-				param->allocationmethodIH++;
-				param->allocationmethodHO++;
-				                           if( param -> allocationmethodIH>maxallocationmethodIH) param -> allocationmethodIH=0;
-				 if( param -> allocationmethodHO>maxallocationmethodHO) param -> allocationmethodHO=0;}
+				  param->allocationmethodIH++;
+				  param->allocationmethodHO++;
+				   if( param -> allocationmethodIH>maxallocationmethodIH) param -> allocationmethodIH=0;
+				   if( param -> allocationmethodHO>maxallocationmethodHO) param -> allocationmethodHO=0;}
 			
 			
 					for (int act = 0; act<100; act++){
-		activation[act] += a1[act];}
+		                        	activation[act] += a1[act];
+					}
+			
 	}   // end of weight update code for 1 cycle
 		
 		
@@ -2019,7 +2021,12 @@ vector <double> activation (100,0);
 		
 
 	} // end of weight tracking code
-// momentum tracker 
+		
+		
+		
+
+		
+		
 		/*	 for (int m=0; m<param->nHide; m++) {
 			for (int n=0; n<param->nInput;n++){
 				cout<<( static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep + static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep) /static_cast<AnalogNVM*>(arrayIH->cell[m][n])->nonzeroupdate<<", ";
@@ -2033,8 +2040,13 @@ vector <double> activation (100,0);
 						 cout<<endl;
 					 } */
 		
-		/* weight infromation tracking */
+	/* weight infromation tracking */
+		
+		
+		
 	// deltaweight, polarity stabilization, momentum existence confirmation 
+		
+		
 	double positiveweightmomentumIH=0;
 	double positiveweightmomentumIH2=0;
 	double negativeweightmomentumIH=0;
@@ -2976,7 +2988,7 @@ a93 = (nonsaturatedweight4 > 0)? dn42/nonsaturatedweight4*100/8000 : 0;
 a101 = (possaturatedweight5 > 0)? dn5/possaturatedweight5*100/8000:0;
 a102 = (negsaturatedweight5 > 0)? dn5n/negsaturatedweight5*100/8000:0;
 a103 = (nonsaturatedweight5 > 0)? dn12/nonsaturatedweight5*100/8000 : 0;	 */	
-		a11= (possaturatedweightm5 > 0)? dnm5/8000 : 0;
+a11= (possaturatedweightm5 > 0)? dnm5/8000 : 0;
 a12= (negsaturatedweightm5 > 0)? dnm5n/8000 : 0;
 a13 = (nonsaturatedweightm5 > 0)? dnm52/8000 : 0;
 a21 = (possaturatedweightm4 > 0)? dnm4/8000: 0;
