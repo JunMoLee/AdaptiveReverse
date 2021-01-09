@@ -332,7 +332,7 @@ for (int r=0; r<100; r++){
 	
 	
 const int
-a=0;
+a=1;
 	
 
 switch(a){
