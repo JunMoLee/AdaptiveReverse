@@ -373,15 +373,15 @@ param_gp=1;
 param_gn=-9;
 	learningrate[0][0] =0.3;
 	learningrate[0][1] = 0.3;
-	learningrate[0][2] = 0.15;
+	learningrate[0][2] = 0.2;
 	learningrate[0][3] = 0.2;
 		
 	learningrate[1][0] = 0.3;
 	learningrate[1][1] = 0.3;
-	learningrate[1][2] = 0.15;
+	learningrate[1][2] = 0.2;
 	learningrate[1][3] = 0.2;
-		newUpdateRate=3;
-		nnewUpdateRate=3;
+		newUpdateRate=2;
+		nnewUpdateRate=2;
 
 
 		RefreshRate = 100;
