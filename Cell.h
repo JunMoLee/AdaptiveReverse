@@ -107,6 +107,7 @@ public:
 	std::normal_distribution<double> *gaussian_dist5;	// Normal distribution object
 	std::normal_distribution<double> *gaussian_dist_maxConductance;	// Normal distribution object
 	std::normal_distribution<double> *gaussian_dist_minConductance;	// Normal distribution object
+	
 	/* Need the 4 variables below if nonlinearIV=true */
 	double conductanceAtVwLTP;		// Conductance at the LTP write voltage
 	double conductanceAtVwLTD;		// Conductance at the LTD write voltage
