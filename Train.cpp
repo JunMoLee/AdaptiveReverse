@@ -2358,7 +2358,7 @@ vector <double> activation (100,0);
 				if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->conductanceGp <Gth1)
 				{countGprange2 ++; // <Gth1
 				 
-				 if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 4) or (static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 2)
+				 if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 4) || (static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 2)
 				 {weightlocationspecifierGp2++;} // (1,3), (3,1)
 		                 
 				 if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 4)
@@ -2369,7 +2369,7 @@ vector <double> activation (100,0);
 				if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->conductanceGn <Gth1)
 				{countGnrange2 ++;
 				 
-				if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 4) or (static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 2)
+				if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 4) || (static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 2)
 				{weightlocationspecifierGn2++;}
 		
 				 if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 4)
@@ -2414,7 +2414,7 @@ vector <double> activation (100,0);
 				if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->conductanceGp <Gth1)
 				{countGprange2 ++; // <Gth1
 				 
-				 if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 4) or (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 2)
+				 if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 4) || (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 2)
 				 {weightlocationspecifierGp2++;} // (1,3), (3,1)
 		
 				 if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 4)
@@ -2424,7 +2424,7 @@ vector <double> activation (100,0);
 				if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->conductanceGn <Gth1)
 				{countGnrange2 ++;
 				 
-				if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 4) or (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 2)
+				if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 4) ||(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 2)
 				{weightlocationspecifierGn2++;}
 
 				 if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 4)
@@ -2451,7 +2451,7 @@ vector <double> activation (100,0);
 		cout<<"count [L.N(Gp)+L.N(Gn) = 6] : "<<locationnumberspecifier4<<endl;
 		
 		
-		cout<<"location sum : "<< 
+		cout<<"location sum : "<< (locationnumberspecifier*2 + locationnumberspecifier2*5 + locationnumberspecifier3*3 + locationnumberspecifier4*6 + locationnumberspecifier5*4 + locationnumberspecifier6*4)/41000;
 				
 	for (int m=0; m<param->nHide; m++) {
 			for (int n=0; n<param->nInput;n++){	
