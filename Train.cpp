@@ -2443,11 +2443,14 @@ vector <double> activation (100,0);
 		cout<<"P1(areanumbersum = 2 , 4 | Gp,Gn<=Gth1/10) = "<< weightlocationspecifierGp2/countGprange2<<", "<<weightlocationspecifierGn2/countGnrange2<<endl;
 		cout<<"P1(areanumbersum = 4 | Gp,Gn<=Gth1/10) = "<< weightlocationspecifierGp3/countGprange2<<", "<<weightlocationspecifierGn3/countGnrange2<<endl;
 		cout<<"count [L.N(Gp)+L.N(Gn) = 2] : "<<locationnumberspecifier<<endl;
-		cout<<"count [L.N(Gp)+L.N(Gn) = 5] : "<<locationnumberspecifier2<<endl;
 		cout<<"count [L.N(Gp)+L.N(Gn) = 3] : "<<locationnumberspecifier3<<endl;
-		cout<<"count [L.N(Gp)+L.N(Gn) = 6] : "<<locationnumberspecifier4<<endl;
 		cout<<"count [L.N(Gp)+L.N(Gn) = 4 middle] : "<<locationnumberspecifier5<<endl;
 		cout<<"count [L.N(Gp)+L.N(Gn) = 4 high low] : "<<locationnumberspecifier6<<endl; 
+		cout<<"count [L.N(Gp)+L.N(Gn) = 5] : "<<locationnumberspecifier2<<endl;
+		
+		cout<<"count [L.N(Gp)+L.N(Gn) = 6] : "<<locationnumberspecifier4<<endl;
+		
+		
 		cout<<"location sum : "<< 
 				
 	for (int m=0; m<param->nHide; m++) {
@@ -3122,8 +3125,8 @@ cout<<"location5"<<" : "<<", "<<possaturatedweight4<<", "<< negsaturatedweight4<
 cout<<"location6"<<" : "<<", "<<possaturatedweight5<<", "<<  negsaturatedweight5<<", "<<nonsaturatedweight5<<endl;	
 		
 cout<<"total saturated weight count"<<endl;
-cout<<"pos sat total count : "<< possaturatedweightm5 + possaturatedweightm4 + possaturatedweightm3 + possaturatedweightm2 + possaturatedweightm1 + possaturatedweight1 + possaturatedweight2 + possaturatedweight3 + possaturatedweight4 + possaturatedweight5<<endl;
-cout<<"neg sat total count : "<< negsaturatedweightm5 + negsaturatedweightm4 + negsaturatedweightm3 + negsaturatedweightm2 + negsaturatedweightm1 + negsaturatedweight1 + negsaturatedweight2 + negsaturatedweight3 + negsaturatedweight4 + negsaturatedweight5<<endl;
+cout<<"pos sat total count : "<< possaturatedweightm1 + possaturatedweight1 + possaturatedweight2 + possaturatedweight3 + possaturatedweight4 + possaturatedweight5<<endl;
+cout<<"neg sat total count : "<<  negsaturatedweightm1 + negsaturatedweight1 + negsaturatedweight2 + negsaturatedweight3 + negsaturatedweight4 + negsaturatedweight5<<endl;
 		
 		
 cout<<"destructivenesscount"<<endl;
@@ -3234,11 +3237,14 @@ read <<"IH"<<", "<< countGpweightrange/countGprange <<", "<<"HO"<<", "<<weightlo
 		
 		readz<< locationnumberspecifier/(possaturatedweightm1 + negsaturatedweightm1 + nonsaturatedweightm1 + possaturatedweight1 + negsaturatedweight1 + nonsaturatedweight1) << endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 2] : "<< ", "<<locationnumberspecifier<<endl;
-		readz <<"count [L.N(Gp)+L.N(Gn) = 5] : "<< ", "<<locationnumberspecifier2<<endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 3] : "<< ", "<<locationnumberspecifier3<<endl;
-		readz <<"count [L.N(Gp)+L.N(Gn) = 6] : "<< ", "<<locationnumberspecifier4<<endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 4 middle] : "<< ", "<<locationnumberspecifier5<<endl;
 		readz <<"count [L.N(Gp)+L.N(Gn) = 4 high low] : "<< ", "<<locationnumberspecifier6<<endl;
+		readz <<"count [L.N(Gp)+L.N(Gn) = 5] : "<< ", "<<locationnumberspecifier2<<endl;
+		
+		readz <<"count [L.N(Gp)+L.N(Gn) = 6] : "<< ", "<<locationnumberspecifier4<<endl;
+		
+		
 		
 		
 		
