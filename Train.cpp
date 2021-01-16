@@ -109,6 +109,8 @@ vector <double> prevweightsum(164000,0);
 /* double prevzerosigcount1=0; */
 
 vector <vector <int>> conupdatepattern(164000, vector<int>(4,0)); 
+vector <vector <int>> locationindex1(100, vector<int>(400,0)); 
+vector <vector <int>> locationindex2(10, vector<int>(100,0)); 
 vector <double> prevconpossum(164000,0);
 vector <double> prevconnegsum(164000,0);			        
 vector <double> conpossum(164000,0);
@@ -2313,8 +2315,7 @@ vector <double> activation (100,0);
 		double  nonzerostep3=0;
 		double  nonzerostep4=0;
 		double  nonzerostep5=0;
-		double  locationindex1 = 0;
-		double  locationindex2 = 0;
+
 		
 		
 		/* location number analyzer */
@@ -2323,17 +2324,17 @@ vector <double> activation (100,0);
 			for (int n=0; n<param->nInput;n++){
 				
 				if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 2)
-				{locationnumberspecifier++;locationindex1=1;} // 2
+				{locationnumberspecifier++;locationindex1[m][n]=1;} // 2
 				else if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 5)
-				{locationnumberspecifier2++;locationindex1=5;}  // 5
+				{locationnumberspecifier2++;locationindex1[m][n]=5;}  // 5
 				else if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 3)
-				{locationnumberspecifier3++;locationindex1=2;} // 3
+				{locationnumberspecifier3++;locationindex1[m][n]=2;} // 3
 				else if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 6)
-				{locationnumberspecifier4++;locationindex1=6;} // 6
+				{locationnumberspecifier4++;locationindex1[m][n]=6;} // 6
 				else if((static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[2] == 4) && (static_cast<AnalogNVM*>(arrayIH->cell[m][n])->weightanalyzer()[0] == 2))
-				{locationnumberspecifier5++;locationindex1=3;} // 2 , 2
+				{locationnumberspecifier5++;locationindex1[m][n]=3;} // 2 , 2
 				else
-				{locationnumberspecifier6++;locationindex1=4;} // 1 , 3
+				{locationnumberspecifier6++;locationindex1[m][n]=4;} // 1 , 3
 				
 				if(static_cast<AnalogNVM*>(arrayIH->cell[m][n])->conductanceGp >= Gth2)
 				{countGprange ++; // >Gth2
@@ -2383,17 +2384,17 @@ vector <double> activation (100,0);
 			for (int n=0; n<param->nHide;n++){
 				
 				if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 2)
-				{locationnumberspecifier++;locationindex2=1;}
+				{locationnumberspecifier++;locationindex2[m][n]=1;}
 				else if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 5)
-				{locationnumberspecifier2++;locationindex2=5;}
+				{locationnumberspecifier2++;locationindex2[m][n]=5;}
 				else if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 3)
-				{locationnumberspecifier3++;locationindex2=2;}
+				{locationnumberspecifier3++;locationindex2[m][n]=2;}
 				else if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 6)
-				{locationnumberspecifier4++;locationindex2=6;}
+				{locationnumberspecifier4++;locationindex2[m][n]=6;}
 				else if((static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[2] == 4) && (static_cast<AnalogNVM*>(arrayHO->cell[m][n])->weightanalyzer()[0] == 2))
-				{locationnumberspecifier5++;locationindex2=3;}
+				{locationnumberspecifier5++;locationindex2[m][n]=3;}
 				else
-				{locationnumberspecifier6++;locationindex2=4;}	
+				{locationnumberspecifier6++;locationindex2[m][n]=4;}	
 				
 	                        if(static_cast<AnalogNVM*>(arrayHO->cell[m][n])->conductanceGp >= Gth2)
 				{countGprange ++;
@@ -2447,11 +2448,10 @@ vector <double> activation (100,0);
 		cout<<"count [L.N(Gp)+L.N(Gn) = 4 middle] : "<<locationnumberspecifier5<<endl;
 		cout<<"count [L.N(Gp)+L.N(Gn) = 4 high low] : "<<locationnumberspecifier6<<endl; 
 		cout<<"count [L.N(Gp)+L.N(Gn) = 5] : "<<locationnumberspecifier2<<endl;
-		
 		cout<<"count [L.N(Gp)+L.N(Gn) = 6] : "<<locationnumberspecifier4<<endl;
 		
 		
-		cout<<"location sum : "<< (locationnumberspecifier*2 + locationnumberspecifier2*5 + locationnumberspecifier3*3 + locationnumberspecifier4*6 + locationnumberspecifier5*4 + locationnumberspecifier6*4)/41000;
+		cout<<"location sum : "<< (locationnumberspecifier*2 + locationnumberspecifier2*5 + locationnumberspecifier3*3 + locationnumberspecifier4*6 + locationnumberspecifier5*4 + locationnumberspecifier6*4)/41000<<endl;
 				
 	for (int m=0; m<param->nHide; m++) {
 			for (int n=0; n<param->nInput;n++){	
@@ -2496,7 +2496,7 @@ vector <double> activation (100,0);
 				 negsatnsm2 = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dnm2n+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				*/
-				if(locationindex1 == 1)
+				if(locationindex1[m][n] == 1)
 				{negsaturatedweightm1++;
 				 negstepm1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
 				 posstepm1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
@@ -2505,7 +2505,7 @@ vector <double> activation (100,0);
 				 negsatnsm1 = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dnm1n+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 2)
+				else if(locationindex1[m][n] == 2)
 				{negsaturatedweight1++;
 				 posstep1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2514,7 +2514,7 @@ vector <double> activation (100,0);
 				 negsatns1= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn1n+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 					
-				else if(locationindex1 == 3)
+				else if(locationindex1[m][n] == 3)
 				{negsaturatedweight2++;
 				 posstep2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2523,7 +2523,7 @@ vector <double> activation (100,0);
 				 negsatns2 = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn2n+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 4)
+				else if(locationindex1[m][n] == 4)
 				{negsaturatedweight3++;
 				 posstep3+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep3+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2532,7 +2532,7 @@ vector <double> activation (100,0);
 				 negsatns3 = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn3n+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 5)
+				else if(locationindex1[m][n] == 5)
 				{negsaturatedweight4++;
 				 posstep4+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep4+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2541,7 +2541,7 @@ vector <double> activation (100,0);
 				 negsatns4 = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn4n+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 6)
+				else if(locationindex1[m][n] == 6)
 				{negsaturatedweight5++;
 				 posstep5+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep5+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2590,7 +2590,7 @@ vector <double> activation (100,0);
 				 negsatpsm2 = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dnm2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				*/
-				if(locationindex1 == 1)
+				if(locationindex1[m][n] == 1)
 				{possaturatedweightm1++;
 				 negstepm1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
 				 posstepm1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
@@ -2599,7 +2599,7 @@ vector <double> activation (100,0);
 				 negsatpsm1 = static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dnm1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 					
-				else if(locationindex1 ==2)
+				else if(locationindex1[m][n] ==2)
 				{possaturatedweight1++;
 				 posstep1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2608,7 +2608,7 @@ vector <double> activation (100,0);
 				 negsatps1= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 					
-				else if(locationindex1 == 3)
+				else if(locationindex1[m][n] == 3)
 				{possaturatedweight2++;
 				 posstep2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2617,7 +2617,7 @@ vector <double> activation (100,0);
 				 negsatps2= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 4)
+				else if(locationindex1[m][n] == 4)
 				{possaturatedweight3++;
 				 posstep3+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep3+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2626,7 +2626,7 @@ vector <double> activation (100,0);
 				 negsatps3= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn3+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 5)
+				else if(locationindex1[m][n] == 5)
 				{possaturatedweight4++;
 				 posstep4+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep4+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2635,7 +2635,7 @@ vector <double> activation (100,0);
 				 negsatps4= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn4+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 6)
+				else if(locationindex1[m][n] == 6)
 				{possaturatedweight5++;
 				 posstep5+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep5+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2685,7 +2685,7 @@ vector <double> activation (100,0);
 				 negsatnonm2= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dnm22+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				*/
-				if(locationindex1 == 1)
+				if(locationindex1[m][n] == 1)
 				{nonsaturatedweightm1++;
 				 negstepm1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
 				 posstepm1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
@@ -2694,7 +2694,7 @@ vector <double> activation (100,0);
 				 negsatnonm1= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dnm12+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 					
-				else if(locationindex1 == 2)
+				else if(locationindex1[m][n] == 2)
 				{nonsaturatedweight1++;
 				 posstep1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep1+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2703,7 +2703,7 @@ vector <double> activation (100,0);
 				 negsatnon1= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn12+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 					
-				else if(locationindex1 == 3)
+				else if(locationindex1[m][n] == 3)
 				{nonsaturatedweight2++;
 				 posstep2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep2+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2712,7 +2712,7 @@ vector <double> activation (100,0);
 				 negsatnon2= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn22+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 4)
+				else if(locationindex1[m][n] == 4)
 				{nonsaturatedweight3++;
 				 posstep3+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep3+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2721,7 +2721,7 @@ vector <double> activation (100,0);
 				 negsatnon3= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn32+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 5)
+				else if(locationindex1[m][n] == 5)
 				{nonsaturatedweight4++;
 				 posstep4+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep4+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2730,7 +2730,7 @@ vector <double> activation (100,0);
 				 negsatnon4= static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negsat;
 				 dn42+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->destructiveness;}
 				
-				else if(locationindex1 == 6)
+				else if(locationindex1[m][n] == 6)
 				{nonsaturatedweight5++;
 				 posstep5+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->posstep;
 				 negstep5+=static_cast<AnalogNVM*>(arrayIH->cell[m][n])->negstep;
@@ -2790,7 +2790,7 @@ vector <double> activation (100,0);
 				 negsatnsm2 = static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dnm2n+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				*/
-				if(locationindex2 == 1)
+				if(locationindex2[m][n] == 1)
 				{negsaturatedweightm1++;
 				 negstepm1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
 				 posstepm1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
@@ -2799,7 +2799,7 @@ vector <double> activation (100,0);
 				 negsatnsm1 = static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dnm1n+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 2)
+				else if(locationindex2[m][n] == 2)
 				{negsaturatedweight1++;
 				 posstep1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2808,7 +2808,7 @@ vector <double> activation (100,0);
 				 negsatns1= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn1n+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 					
-				else if(locationindex2 == 3)
+				else if(locationindex2[m][n] == 3)
 				{negsaturatedweight2++;
 				 posstep2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2817,7 +2817,7 @@ vector <double> activation (100,0);
 				 negsatns2 = static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn2n+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 4)
+				else if(locationindex2[m][n] == 4)
 				{negsaturatedweight3++;
 				 posstep3+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep3+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2826,7 +2826,7 @@ vector <double> activation (100,0);
 				 negsatns3 = static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn3n+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 5)
+				else if(locationindex2[m][n] == 5)
 				{negsaturatedweight4++;
 				 posstep4+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep4+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2835,7 +2835,7 @@ vector <double> activation (100,0);
 				 negsatns4 = static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn4n+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 6)
+				else if(locationindex2[m][n] == 6)
 				{negsaturatedweight5++;
 				 posstep5+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep5+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2884,7 +2884,7 @@ vector <double> activation (100,0);
 				 negsatpsm2 = static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dnm2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				*/
-				if(locationindex2 == 1)
+				if(locationindex2[m][n] == 1)
 				{possaturatedweightm1++;
 				 negstepm1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
 				 posstepm1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
@@ -2893,7 +2893,7 @@ vector <double> activation (100,0);
 				 negsatpsm1 = static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dnm1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 					
-				else if(locationindex2 == 2)
+				else if(locationindex2[m][n] == 2)
 				{possaturatedweight1++;
 				 posstep1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2902,7 +2902,7 @@ vector <double> activation (100,0);
 				 negsatps1= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 					
-				else if(locationindex2 == 3)
+				else if(locationindex2[m][n] == 3)
 				{possaturatedweight2++;
 				 posstep2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2911,7 +2911,7 @@ vector <double> activation (100,0);
 				 negsatps2= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 4)
+				else if(locationindex2[m][n] == 4)
 				{possaturatedweight3++;
 				 posstep3+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep3+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2920,7 +2920,7 @@ vector <double> activation (100,0);
 				 negsatps3= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn3+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 5)
+				else if(locationindex2[m][n] == 5)
 				{possaturatedweight4++;
 				 posstep4+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep4+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2929,7 +2929,7 @@ vector <double> activation (100,0);
 				 negsatps4= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn4+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 6)
+				else if(locationindex2[m][n] == 6)
 				{possaturatedweight5++;
 				 posstep5+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep5+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2979,7 +2979,7 @@ vector <double> activation (100,0);
 				 negsatnonm2= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dnm22+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				*/
-				if(locationindex2 == 1)
+				if(locationindex2[m][n] == 1)
 				{nonsaturatedweightm1++;
 				 negstepm1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
 				 posstepm1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
@@ -2988,7 +2988,7 @@ vector <double> activation (100,0);
 				 negsatnonm1= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dnm12+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 					
-				else if(locationindex2 == 2)
+				else if(locationindex2[m][n] == 2)
 				{nonsaturatedweight1++;
 				 posstep1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep1+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -2997,7 +2997,7 @@ vector <double> activation (100,0);
 				 negsatnon1= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn12+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 					
-				else if(locationindex2 == 3)
+				else if(locationindex2[m][n] == 3)
 				{nonsaturatedweight2++;
 				 posstep2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep2+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -3006,7 +3006,7 @@ vector <double> activation (100,0);
 				 negsatnon2= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn22+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 4)
+				else if(locationindex2[m][n] == 4)
 				{nonsaturatedweight3++;
 				 posstep3+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep3+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -3015,7 +3015,7 @@ vector <double> activation (100,0);
 				 negsatnon3= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn32+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 5)
+				else if(locationindex2[m][n] == 5)
 				{nonsaturatedweight4++;
 				 posstep4+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep4+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
@@ -3024,7 +3024,7 @@ vector <double> activation (100,0);
 				 negsatnon4= static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negsat;
 				 dn42+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->destructiveness;}
 				
-				else if(locationindex2 == 6)
+				else if(locationindex2[m][n] == 6)
 				{nonsaturatedweight5++;
 				 posstep5+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->posstep;
 				 negstep5+=static_cast<AnalogNVM*>(arrayHO->cell[m][n])->negstep;
