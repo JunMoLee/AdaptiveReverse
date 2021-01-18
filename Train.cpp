@@ -856,7 +856,8 @@ vector <double> activation (100,0);
 								{ // if + reverse update = - reverse update
 								
 								if(((batchSize+numTrain*(epochcount-1)) % (int)(param->newUpdateRate/adNur))*param->ReverseUpdate==((int)(param->newUpdateRate/adNur-1)))
-								// reverse update condition{
+								// reverse update condition
+							    {
 									if(deltaWeight1[jj][k]*normalupdateIH>0) arrayIH->WriteCell(jj, k, deltaWeight1[jj][k], weight1[jj][k], param->maxWeight, param->minWeight, true, false, false, false,  learningrateIH);	
 										else
 								arrayIH->WriteCell(jj, k, deltaWeight1[jj][k], weight1[jj][k], param->maxWeight, param->minWeight, true, !(posstopreverse*negstopreverse), (!posstopreverse*negstopreverse), !posstopreverse*!negstopreverse, learningrateIH);
