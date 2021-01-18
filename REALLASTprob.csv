@@ -1,0 +1,1480 @@
+epoch, 1
+IH, 0.974539, HO, 0.999257
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.980199, HO, 0.999765
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.984363, HO, 0.999929
+location1 : , 0, 0, 0
+location2 : , 0, 1, 39999
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.987752, HO, 0.999387
+location1 : , 0, 0, 0
+location2 : , 0, 1, 39999
+location3 : , 0, 1, 999
+location4 : , 0, 0, 0
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.987674, HO, 0.998879
+location1 : , 0, 0, 0
+location2 : , 0, 0, 41000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 0
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.987578, HO, 0.998902
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 1000
+location4 : , 0, 0, 0
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.986926, HO, 0.999179
+location1 : , 0, 0, 0
+location2 : , 0, 0, 41000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 0
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.988118, HO, 0.998517
+location1 : , 0, 0, 0
+location2 : , 0, 5, 39995
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 9
+IH, 0.988585, HO, 0.998658
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 10
+IH, 0.989445, HO, 0.999036
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 11
+IH, 0.988876, HO, 0.998035
+location1 : , 0, 0, 0
+location2 : , 0, 4, 39996
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 12
+IH, 0.990831, HO, 0.999351
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 1, 999
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 13
+IH, 0.99013, HO, 0.997367
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 1, 999
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 14
+IH, 0.989753, HO, 0.998199
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 15
+IH, 0.989341, HO, 0.998964
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 16
+IH, 0.988209, HO, 0.998342
+location1 : , 0, 0, 0
+location2 : , 0, 0, 40000
+location3 : , 0, 0, 0
+location4 : , 0, 0, 1000
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 17
+IH, 0.988693, HO, 0.998919
+location1 : , 0, 0, 0
+location2 : , 0, 0, 0
+location3 : , 0, 0, 1000
+location4 : , 0, 0, 0
+location5 : , 0, 27, 39973
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.963677, HO, 0.999431
+location1 : , 0, 0, 1837
+location2 : , 0, 0, 16798
+location3 : , 0, 0, 1859
+location4 : , 0, 0, 20477
+location5 : , 0, 0, 29
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.979227, HO, 0.999524
+location1 : , 0, 0, 1019
+location2 : , 0, 0, 14533
+location3 : , 0, 0, 1856
+location4 : , 0, 0, 23562
+location5 : , 0, 0, 30
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.983691, HO, 0.999714
+location1 : , 0, 0, 770
+location2 : , 0, 0, 13197
+location3 : , 0, 0, 1568
+location4 : , 0, 0, 25447
+location5 : , 0, 0, 18
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.984139, HO, 0.99912
+location1 : , 0, 0, 653
+location2 : , 0, 0, 12333
+location3 : , 0, 0, 1445
+location4 : , 0, 5, 26532
+location5 : , 0, 0, 32
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.985073, HO, 0.998625
+location1 : , 0, 0, 593
+location2 : , 0, 0, 11739
+location3 : , 0, 0, 1405
+location4 : , 0, 0, 27214
+location5 : , 0, 0, 49
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.915029, HO, 0.999628
+location1 : , 0, 0, 6386
+location2 : , 0, 0, 24013
+location3 : , 0, 0, 35
+location4 : , 0, 0, 10557
+location5 : , 0, 0, 9
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.894572, HO, 0.994577
+location1 : , 0, 0, 6367
+location2 : , 0, 0, 23970
+location3 : , 0, 0, 581
+location4 : , 0, 0, 10005
+location5 : , 0, 0, 77
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.884156, HO, 0.988549
+location1 : , 0, 0, 6727
+location2 : , 0, 0, 23854
+location3 : , 0, 0, 1018
+location4 : , 0, 0, 9283
+location5 : , 0, 0, 118
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.876923, HO, 0.987521
+location1 : , 0, 0, 7025
+location2 : , 0, 0, 23842
+location3 : , 0, 0, 1286
+location4 : , 0, 0, 8725
+location5 : , 0, 0, 122
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.864912, HO, 0.989017
+location1 : , 0, 0, 7458
+location2 : , 0, 0, 23512
+location3 : , 0, 0, 1518
+location4 : , 0, 0, 8382
+location5 : , 0, 0, 130
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.860339, HO, 0.985098
+location1 : , 0, 0, 7825
+location2 : , 0, 0, 23196
+location3 : , 0, 0, 1796
+location4 : , 0, 0, 8019
+location5 : , 0, 0, 164
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.847245, HO, 0.981356
+location1 : , 0, 0, 8408
+location2 : , 0, 0, 22904
+location3 : , 0, 0, 1919
+location4 : , 0, 0, 7555
+location5 : , 0, 0, 214
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.847762, HO, 0.983967
+location1 : , 0, 0, 9022
+location2 : , 0, 0, 22496
+location3 : , 0, 0, 2048
+location4 : , 0, 0, 7253
+location5 : , 0, 0, 181
+location6 : , 0, 0, 0
+epoch, 9
+IH, 0.846845, HO, 0.983217
+location1 : , 0, 0, 9817
+location2 : , 0, 0, 21873
+location3 : , 0, 0, 2254
+location4 : , 0, 0, 6890
+location5 : , 0, 0, 166
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.908742, HO, 0.999455
+location1 : , 0, 0, 10033
+location2 : , 0, 0, 23148
+location3 : , 0, 0, 234
+location4 : , 0, 0, 7571
+location5 : , 0, 0, 14
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.901688, HO, 0.998713
+location1 : , 0, 0, 12604
+location2 : , 0, 0, 21556
+location3 : , 0, 0, 356
+location4 : , 0, 0, 6466
+location5 : , 0, 0, 18
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.896884, HO, 0.99858
+location1 : , 0, 0, 14565
+location2 : , 0, 0, 19981
+location3 : , 0, 0, 525
+location4 : , 0, 0, 5910
+location5 : , 0, 0, 19
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.90559, HO, 0.99802
+location1 : , 0, 0, 15665
+location2 : , 0, 0, 19331
+location3 : , 0, 0, 545
+location4 : , 0, 0, 5442
+location5 : , 0, 0, 17
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.907885, HO, 0.998688
+location1 : , 0, 0, 16967
+location2 : , 0, 0, 18342
+location3 : , 0, 0, 614
+location4 : , 0, 0, 5062
+location5 : , 0, 0, 15
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.91183, HO, 0.997691
+location1 : , 0, 0, 17697
+location2 : , 0, 0, 17799
+location3 : , 0, 0, 651
+location4 : , 0, 0, 4835
+location5 : , 0, 0, 18
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.90916, HO, 0.997646
+location1 : , 0, 0, 18302
+location2 : , 0, 0, 17268
+location3 : , 0, 0, 675
+location4 : , 0, 0, 4736
+location5 : , 0, 0, 19
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.912909, HO, 0.997613
+location1 : , 0, 0, 18616
+location2 : , 0, 0, 16984
+location3 : , 0, 0, 710
+location4 : , 0, 0, 4671
+location5 : , 0, 0, 19
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.916991, HO, 0.996613
+location1 : , 0, 0, 3159
+location2 : , 0, 0, 18411
+location3 : , 0, 0, 1531
+location4 : , 0, 0, 17826
+location5 : , 0, 0, 73
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.950138, HO, 0.99848
+location1 : , 0, 0, 1847
+location2 : , 0, 0, 16924
+location3 : , 0, 0, 1939
+location4 : , 0, 0, 20220
+location5 : , 0, 0, 70
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.963671, HO, 0.996675
+location1 : , 0, 0, 1073
+location2 : , 0, 0, 14964
+location3 : , 0, 0, 2172
+location4 : , 0, 0, 22647
+location5 : , 0, 0, 144
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.967025, HO, 0.995646
+location1 : , 0, 0, 858
+location2 : , 0, 0, 13919
+location3 : , 0, 0, 2196
+location4 : , 0, 0, 23874
+location5 : , 0, 0, 153
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.968095, HO, 0.995364
+location1 : , 0, 0, 745
+location2 : , 0, 0, 13637
+location3 : , 0, 0, 1937
+location4 : , 0, 0, 24538
+location5 : , 0, 0, 143
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.970881, HO, 0.995904
+location1 : , 0, 0, 673
+location2 : , 0, 0, 13134
+location3 : , 0, 0, 2077
+location4 : , 0, 0, 24985
+location5 : , 0, 0, 131
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.971047, HO, 0.994471
+location1 : , 0, 0, 621
+location2 : , 0, 0, 12788
+location3 : , 0, 0, 2105
+location4 : , 0, 0, 25305
+location5 : , 0, 0, 181
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.972914, HO, 0.996105
+location1 : , 0, 0, 580
+location2 : , 0, 0, 12813
+location3 : , 0, 0, 1970
+location4 : , 0, 0, 25512
+location5 : , 0, 0, 125
+location6 : , 0, 0, 0
+epoch, 9
+IH, 0.973463, HO, 0.997974
+location1 : , 0, 0, 552
+location2 : , 0, 0, 12634
+location3 : , 0, 0, 1968
+location4 : , 0, 0, 25711
+location5 : , 0, 0, 135
+location6 : , 0, 0, 0
+epoch, 10
+IH, 0.974164, HO, 0.996931
+location1 : , 0, 0, 518
+location2 : , 0, 0, 12443
+location3 : , 0, 0, 2020
+location4 : , 0, 0, 25891
+location5 : , 0, 0, 128
+location6 : , 0, 0, 0
+epoch, 11
+IH, 0.974007, HO, 0.994311
+location1 : , 0, 0, 496
+location2 : , 0, 0, 12202
+location3 : , 0, 0, 2183
+location4 : , 0, 0, 25943
+location5 : , 0, 0, 176
+location6 : , 0, 0, 0
+epoch, 12
+IH, 0.97549, HO, 0.995262
+location1 : , 0, 0, 485
+location2 : , 0, 0, 12284
+location3 : , 0, 0, 2019
+location4 : , 0, 1, 26068
+location5 : , 0, 0, 143
+location6 : , 0, 0, 0
+epoch, 13
+IH, 0.975565, HO, 0.995683
+location1 : , 0, 0, 467
+location2 : , 0, 0, 12270
+location3 : , 0, 0, 1964
+location4 : , 0, 0, 26149
+location5 : , 0, 0, 150
+location6 : , 0, 0, 0
+epoch, 14
+IH, 0.975803, HO, 0.99583
+location1 : , 0, 0, 460
+location2 : , 0, 0, 12166
+location3 : , 0, 0, 2032
+location4 : , 0, 0, 26191
+location5 : , 0, 0, 151
+location6 : , 0, 0, 0
+epoch, 15
+IH, 0.976441, HO, 0.996567
+location1 : , 0, 0, 451
+location2 : , 0, 0, 12158
+location3 : , 0, 0, 1916
+location4 : , 0, 0, 26322
+location5 : , 0, 0, 153
+location6 : , 0, 0, 0
+epoch, 16
+IH, 0.977552, HO, 0.996647
+location1 : , 0, 0, 442
+location2 : , 0, 0, 12095
+location3 : , 0, 0, 1907
+location4 : , 0, 0, 26419
+location5 : , 0, 0, 137
+location6 : , 0, 0, 0
+epoch, 17
+IH, 0.978795, HO, 0.997685
+location1 : , 0, 0, 438
+location2 : , 0, 0, 12225
+location3 : , 0, 0, 1751
+location4 : , 0, 0, 26476
+location5 : , 0, 0, 110
+location6 : , 0, 0, 0
+epoch, 18
+IH, 0.978385, HO, 0.995851
+location1 : , 0, 0, 420
+location2 : , 0, 0, 11860
+location3 : , 0, 0, 1997
+location4 : , 0, 0, 26570
+location5 : , 0, 0, 153
+location6 : , 0, 0, 0
+epoch, 19
+IH, 0.976923, HO, 0.997014
+location1 : , 0, 0, 404
+location2 : , 0, 0, 11836
+location3 : , 0, 0, 1971
+location4 : , 0, 0, 26641
+location5 : , 0, 0, 148
+location6 : , 0, 0, 0
+epoch, 20
+IH, 0.979729, HO, 0.996344
+location1 : , 0, 0, 393
+location2 : , 0, 0, 11931
+location3 : , 0, 0, 1760
+location4 : , 0, 0, 26766
+location5 : , 0, 0, 150
+location6 : , 0, 0, 0
+epoch, 21
+IH, 0.978139, HO, 0.996729
+location1 : , 0, 0, 385
+location2 : , 0, 0, 11685
+location3 : , 0, 0, 2007
+location4 : , 0, 0, 26761
+location5 : , 0, 0, 162
+location6 : , 0, 0, 0
+epoch, 22
+IH, 0.979383, HO, 0.995803
+location1 : , 0, 0, 375
+location2 : , 0, 0, 11699
+location3 : , 0, 0, 1905
+location4 : , 0, 0, 26879
+location5 : , 0, 0, 142
+location6 : , 0, 0, 0
+epoch, 23
+IH, 0.980537, HO, 0.995584
+location1 : , 0, 0, 368
+location2 : , 0, 0, 11486
+location3 : , 0, 0, 1971
+location4 : , 0, 0, 27002
+location5 : , 0, 0, 173
+location6 : , 0, 0, 0
+epoch, 24
+IH, 0.98038, HO, 0.993804
+location1 : , 0, 0, 364
+location2 : , 0, 0, 11320
+location3 : , 0, 0, 2066
+location4 : , 0, 0, 27029
+location5 : , 0, 0, 221
+location6 : , 0, 0, 0
+epoch, 25
+IH, 0.97877, HO, 0.996606
+location1 : , 0, 0, 359
+location2 : , 0, 0, 11375
+location3 : , 0, 0, 1993
+location4 : , 0, 0, 27088
+location5 : , 0, 0, 185
+location6 : , 0, 0, 0
+epoch, 26
+IH, 0.978206, HO, 0.994442
+location1 : , 0, 0, 353
+location2 : , 0, 0, 11319
+location3 : , 0, 0, 2076
+location4 : , 0, 0, 27005
+location5 : , 0, 0, 247
+location6 : , 0, 0, 0
+epoch, 27
+IH, 0.977069, HO, 0.995756
+location1 : , 0, 0, 347
+location2 : , 0, 0, 11330
+location3 : , 0, 0, 2030
+location4 : , 0, 0, 27122
+location5 : , 0, 0, 171
+location6 : , 0, 0, 0
+epoch, 28
+IH, 0.979695, HO, 0.995398
+location1 : , 0, 0, 343
+location2 : , 0, 0, 11365
+location3 : , 0, 0, 1961
+location4 : , 0, 0, 27175
+location5 : , 0, 0, 156
+location6 : , 0, 0, 0
+epoch, 29
+IH, 0.978514, HO, 0.996386
+location1 : , 0, 0, 336
+location2 : , 0, 0, 11325
+location3 : , 0, 0, 1937
+location4 : , 0, 0, 27265
+location5 : , 0, 0, 137
+location6 : , 0, 0, 0
+epoch, 30
+IH, 0.979931, HO, 0.994257
+location1 : , 0, 0, 328
+location2 : , 0, 0, 11260
+location3 : , 0, 0, 1983
+location4 : , 0, 0, 27229
+location5 : , 0, 0, 200
+location6 : , 0, 0, 0
+epoch, 31
+IH, 0.980181, HO, 0.992806
+location1 : , 0, 0, 324
+location2 : , 0, 0, 11146
+location3 : , 0, 0, 2077
+location4 : , 0, 0, 27242
+location5 : , 0, 0, 211
+location6 : , 0, 0, 0
+epoch, 32
+IH, 0.980731, HO, 0.996349
+location1 : , 0, 0, 316
+location2 : , 0, 0, 11280
+location3 : , 0, 0, 1914
+location4 : , 0, 0, 27360
+location5 : , 0, 0, 130
+location6 : , 0, 0, 0
+epoch, 33
+IH, 0.980366, HO, 0.997934
+location1 : , 0, 0, 313
+location2 : , 0, 0, 11340
+location3 : , 0, 0, 1789
+location4 : , 0, 0, 27450
+location5 : , 0, 0, 108
+location6 : , 0, 0, 0
+epoch, 34
+IH, 0.981739, HO, 0.997325
+location1 : , 0, 0, 302
+location2 : , 0, 0, 11409
+location3 : , 0, 0, 1777
+location4 : , 0, 0, 27404
+location5 : , 0, 0, 108
+location6 : , 0, 0, 0
+epoch, 35
+IH, 0.981408, HO, 0.996854
+location1 : , 0, 0, 297
+location2 : , 0, 0, 11280
+location3 : , 0, 0, 1813
+location4 : , 0, 0, 27465
+location5 : , 0, 0, 145
+location6 : , 0, 0, 0
+epoch, 36
+IH, 0.979678, HO, 0.9959
+location1 : , 0, 0, 291
+location2 : , 0, 0, 11170
+location3 : , 0, 0, 1883
+location4 : , 0, 0, 27461
+location5 : , 0, 0, 195
+location6 : , 0, 0, 0
+epoch, 37
+IH, 0.980016, HO, 0.993986
+location1 : , 0, 0, 285
+location2 : , 0, 0, 11079
+location3 : , 0, 0, 1949
+location4 : , 0, 0, 27489
+location5 : , 0, 0, 198
+location6 : , 0, 0, 0
+epoch, 38
+IH, 0.98156, HO, 0.9961
+location1 : , 0, 0, 284
+location2 : , 0, 0, 11065
+location3 : , 0, 0, 1866
+location4 : , 0, 0, 27626
+location5 : , 0, 0, 159
+location6 : , 0, 0, 0
+epoch, 39
+IH, 0.980141, HO, 0.995626
+location1 : , 0, 0, 280
+location2 : , 0, 0, 11070
+location3 : , 0, 0, 1884
+location4 : , 0, 0, 27614
+location5 : , 0, 0, 152
+location6 : , 0, 0, 0
+epoch, 40
+IH, 0.981076, HO, 0.994909
+location1 : , 0, 0, 277
+location2 : , 0, 0, 10779
+location3 : , 0, 0, 2152
+location4 : , 0, 0, 27617
+location5 : , 0, 0, 175
+location6 : , 0, 0, 0
+epoch, 41
+IH, 0.982217, HO, 0.99654
+location1 : , 0, 0, 273
+location2 : , 0, 0, 11055
+location3 : , 0, 0, 1777
+location4 : , 0, 0, 27715
+location5 : , 0, 0, 180
+location6 : , 0, 0, 0
+epoch, 42
+IH, 0.981179, HO, 0.992457
+location1 : , 0, 0, 270
+location2 : , 0, 0, 10763
+location3 : , 0, 0, 1972
+location4 : , 0, 0, 27792
+location5 : , 0, 0, 203
+location6 : , 0, 0, 0
+epoch, 43
+IH, 0.982392, HO, 0.996086
+location1 : , 0, 0, 264
+location2 : , 0, 0, 10943
+location3 : , 0, 0, 1800
+location4 : , 0, 0, 27855
+location5 : , 0, 0, 138
+location6 : , 0, 0, 0
+epoch, 44
+IH, 0.981601, HO, 0.995088
+location1 : , 0, 0, 263
+location2 : , 0, 0, 10717
+location3 : , 0, 0, 1982
+location4 : , 0, 0, 27871
+location5 : , 0, 0, 167
+location6 : , 0, 0, 0
+epoch, 45
+IH, 0.98228, HO, 0.996567
+location1 : , 0, 0, 262
+location2 : , 0, 0, 10847
+location3 : , 0, 0, 1821
+location4 : , 0, 0, 27918
+location5 : , 0, 0, 152
+location6 : , 0, 0, 0
+epoch, 46
+IH, 0.978662, HO, 0.99494
+location1 : , 0, 0, 261
+location2 : , 0, 0, 10612
+location3 : , 0, 0, 1978
+location4 : , 0, 0, 27960
+location5 : , 0, 0, 189
+location6 : , 0, 0, 0
+epoch, 47
+IH, 0.980038, HO, 0.995425
+location1 : , 0, 0, 258
+location2 : , 0, 0, 10498
+location3 : , 0, 0, 2025
+location4 : , 0, 0, 28014
+location5 : , 0, 0, 205
+location6 : , 0, 0, 0
+epoch, 48
+IH, 0.980867, HO, 0.9942
+location1 : , 0, 0, 253
+location2 : , 0, 0, 10571
+location3 : , 0, 0, 1921
+location4 : , 0, 0, 28064
+location5 : , 0, 0, 191
+location6 : , 0, 0, 0
+epoch, 49
+IH, 0.982806, HO, 0.996791
+location1 : , 0, 0, 252
+location2 : , 0, 0, 10416
+location3 : , 0, 0, 1966
+location4 : , 0, 0, 28216
+location5 : , 0, 0, 150
+location6 : , 0, 0, 0
+epoch, 50
+IH, 0.980682, HO, 0.992731
+location1 : , 0, 0, 249
+location2 : , 0, 0, 10197
+location3 : , 0, 0, 2124
+location4 : , 0, 0, 28196
+location5 : , 0, 0, 234
+location6 : , 0, 0, 0
+epoch, 51
+IH, 0.981727, HO, 0.99588
+location1 : , 0, 0, 244
+location2 : , 0, 0, 10463
+location3 : , 0, 0, 1839
+location4 : , 0, 0, 28285
+location5 : , 0, 0, 169
+location6 : , 0, 0, 0
+epoch, 52
+IH, 0.982469, HO, 0.993176
+location1 : , 0, 0, 241
+location2 : , 0, 0, 10260
+location3 : , 0, 0, 1970
+location4 : , 0, 0, 28333
+location5 : , 0, 0, 196
+location6 : , 0, 0, 0
+epoch, 53
+IH, 0.982955, HO, 0.995555
+location1 : , 0, 0, 240
+location2 : , 0, 0, 10211
+location3 : , 0, 0, 1961
+location4 : , 0, 0, 28417
+location5 : , 0, 0, 171
+location6 : , 0, 0, 0
+epoch, 54
+IH, 0.983093, HO, 0.994222
+location1 : , 0, 0, 237
+location2 : , 0, 0, 10179
+location3 : , 0, 0, 2039
+location4 : , 0, 0, 28358
+location5 : , 0, 0, 187
+location6 : , 0, 0, 0
+epoch, 55
+IH, 0.982928, HO, 0.996529
+location1 : , 0, 0, 234
+location2 : , 0, 0, 10276
+location3 : , 0, 0, 2016
+location4 : , 0, 0, 28297
+location5 : , 0, 0, 177
+location6 : , 0, 0, 0
+epoch, 56
+IH, 0.98206, HO, 0.992066
+location1 : , 0, 0, 231
+location2 : , 0, 0, 10148
+location3 : , 0, 0, 2150
+location4 : , 0, 0, 28231
+location5 : , 0, 0, 240
+location6 : , 0, 0, 0
+epoch, 57
+IH, 0.985785, HO, 0.995841
+location1 : , 0, 0, 230
+location2 : , 0, 0, 10308
+location3 : , 0, 0, 1964
+location4 : , 0, 0, 28349
+location5 : , 0, 0, 149
+location6 : , 0, 0, 0
+epoch, 58
+IH, 0.984035, HO, 0.994817
+location1 : , 0, 0, 227
+location2 : , 0, 0, 10105
+location3 : , 0, 0, 2092
+location4 : , 0, 0, 28377
+location5 : , 0, 0, 199
+location6 : , 0, 0, 0
+epoch, 59
+IH, 0.985425, HO, 0.997302
+location1 : , 0, 0, 226
+location2 : , 0, 0, 10272
+location3 : , 0, 0, 1828
+location4 : , 0, 0, 28543
+location5 : , 0, 0, 131
+location6 : , 0, 0, 0
+epoch, 60
+IH, 0.985664, HO, 0.995701
+location1 : , 0, 0, 226
+location2 : , 0, 0, 10255
+location3 : , 0, 0, 1773
+location4 : , 0, 0, 28572
+location5 : , 0, 0, 174
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.883893, HO, 0.996439
+location1 : , 0, 0, 6570
+location2 : , 0, 0, 24344
+location3 : , 0, 0, 308
+location4 : , 0, 0, 9738
+location5 : , 0, 0, 40
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.877126, HO, 0.99329
+location1 : , 0, 0, 7331
+location2 : , 0, 0, 24028
+location3 : , 0, 0, 764
+location4 : , 0, 0, 8825
+location5 : , 0, 0, 52
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.873726, HO, 0.989362
+location1 : , 0, 0, 7984
+location2 : , 0, 0, 23591
+location3 : , 0, 0, 1057
+location4 : , 0, 0, 8281
+location5 : , 0, 0, 87
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.867691, HO, 0.982892
+location1 : , 0, 0, 7870
+location2 : , 0, 0, 23568
+location3 : , 0, 0, 1577
+location4 : , 0, 0, 7854
+location5 : , 0, 0, 131
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.871625, HO, 0.990099
+location1 : , 0, 0, 9008
+location2 : , 0, 0, 22686
+location3 : , 0, 0, 1650
+location4 : , 0, 0, 7552
+location5 : , 0, 0, 104
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.868864, HO, 0.996264
+location1 : , 0, 0, 9321
+location2 : , 0, 0, 22660
+location3 : , 0, 0, 1712
+location4 : , 0, 0, 7215
+location5 : , 0, 0, 92
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.875632, HO, 0.994477
+location1 : , 0, 0, 9282
+location2 : , 0, 0, 22806
+location3 : , 0, 0, 1878
+location4 : , 0, 0, 6925
+location5 : , 0, 0, 109
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.866334, HO, 0.996625
+location1 : , 0, 0, 9303
+location2 : , 0, 0, 23128
+location3 : , 0, 0, 1798
+location4 : , 0, 0, 6698
+location5 : , 0, 0, 73
+location6 : , 0, 0, 0
+epoch, 9
+IH, 0.871502, HO, 0.997516
+location1 : , 0, 0, 9693
+location2 : , 0, 0, 22960
+location3 : , 0, 0, 1848
+location4 : , 0, 0, 6454
+location5 : , 0, 0, 45
+location6 : , 0, 0, 0
+epoch, 10
+IH, 0.874517, HO, 0.997058
+location1 : , 0, 0, 10400
+location2 : , 0, 0, 22482
+location3 : , 0, 0, 1773
+location4 : , 0, 0, 6300
+location5 : , 0, 0, 45
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.885867, HO, 0.998563
+location1 : , 0, 0, 6550
+location2 : , 0, 0, 24541
+location3 : , 0, 0, 185
+location4 : , 0, 0, 9708
+location5 : , 0, 0, 16
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.940656, HO, 0.999819
+location1 : , 0, 0, 6227
+location2 : , 0, 0, 23892
+location3 : , 0, 0, 45
+location4 : , 0, 0, 10835
+location5 : , 0, 0, 1
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.92087, HO, 0.997708
+location1 : , 0, 0, 6577
+location2 : , 0, 0, 23862
+location3 : , 0, 0, 132
+location4 : , 0, 0, 10415
+location5 : , 0, 0, 14
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.907853, HO, 0.983765
+location1 : , 0, 0, 6552
+location2 : , 0, 0, 23753
+location3 : , 0, 0, 837
+location4 : , 0, 0, 9761
+location5 : , 0, 0, 97
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.895364, HO, 0.989101
+location1 : , 0, 0, 7046
+location2 : , 0, 0, 23748
+location3 : , 0, 0, 1008
+location4 : , 0, 0, 9119
+location5 : , 0, 0, 79
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.881147, HO, 0.985483
+location1 : , 0, 0, 7282
+location2 : , 0, 0, 23571
+location3 : , 0, 0, 1341
+location4 : , 0, 0, 8693
+location5 : , 0, 0, 113
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.879597, HO, 0.986291
+location1 : , 0, 0, 7931
+location2 : , 0, 0, 23307
+location3 : , 0, 0, 1554
+location4 : , 0, 0, 8116
+location5 : , 0, 0, 92
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.948185, HO, 0.999012
+location1 : , 0, 0, 2144
+location2 : , 0, 0, 17711
+location3 : , 0, 0, 1487
+location4 : , 0, 0, 19624
+location5 : , 0, 0, 34
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.955628, HO, 0.995077
+location1 : , 0, 0, 1106
+location2 : , 0, 0, 14852
+location3 : , 0, 0, 2193
+location4 : , 0, 0, 22680
+location5 : , 0, 0, 169
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.964964, HO, 0.9972
+location1 : , 0, 0, 848
+location2 : , 0, 0, 14299
+location3 : , 0, 0, 2050
+location4 : , 0, 0, 23641
+location5 : , 0, 0, 162
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.969423, HO, 0.998535
+location1 : , 0, 0, 734
+location2 : , 0, 0, 13958
+location3 : , 0, 0, 1931
+location4 : , 0, 0, 24246
+location5 : , 0, 0, 131
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.969483, HO, 0.996866
+location1 : , 0, 0, 664
+location2 : , 0, 0, 13538
+location3 : , 0, 0, 1976
+location4 : , 0, 0, 24678
+location5 : , 0, 0, 144
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.97077, HO, 0.995808
+location1 : , 0, 0, 614
+location2 : , 0, 0, 13238
+location3 : , 0, 0, 1991
+location4 : , 0, 0, 24997
+location5 : , 0, 0, 160
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.972496, HO, 0.996221
+location1 : , 0, 0, 567
+location2 : , 0, 0, 13221
+location3 : , 0, 0, 1715
+location4 : , 0, 0, 25371
+location5 : , 0, 0, 126
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.971387, HO, 0.996385
+location1 : , 0, 0, 534
+location2 : , 0, 0, 13014
+location3 : , 0, 0, 1886
+location4 : , 0, 0, 25413
+location5 : , 0, 0, 153
+location6 : , 0, 0, 0
+epoch, 9
+IH, 0.970149, HO, 0.993653
+location1 : , 0, 0, 510
+location2 : , 0, 0, 12745
+location3 : , 0, 0, 2015
+location4 : , 0, 0, 25541
+location5 : , 0, 0, 189
+location6 : , 0, 0, 0
+epoch, 10
+IH, 0.970181, HO, 0.994499
+location1 : , 0, 0, 491
+location2 : , 0, 0, 12850
+location3 : , 0, 0, 1921
+location4 : , 0, 0, 25547
+location5 : , 0, 0, 191
+location6 : , 0, 0, 0
+epoch, 11
+IH, 0.969038, HO, 0.995459
+location1 : , 0, 0, 475
+location2 : , 0, 0, 12759
+location3 : , 0, 0, 1939
+location4 : , 0, 0, 25658
+location5 : , 0, 0, 169
+location6 : , 0, 0, 0
+epoch, 12
+IH, 0.969164, HO, 0.994967
+location1 : , 0, 0, 463
+location2 : , 0, 0, 12556
+location3 : , 0, 0, 2016
+location4 : , 0, 0, 25760
+location5 : , 0, 0, 205
+location6 : , 0, 0, 0
+epoch, 13
+IH, 0.972595, HO, 0.99711
+location1 : , 0, 0, 449
+location2 : , 0, 0, 12543
+location3 : , 0, 0, 1911
+location4 : , 0, 0, 25981
+location5 : , 0, 0, 116
+location6 : , 0, 0, 0
+epoch, 14
+IH, 0.973909, HO, 0.99511
+location1 : , 0, 0, 439
+location2 : , 0, 0, 12304
+location3 : , 0, 0, 2036
+location4 : , 0, 0, 26011
+location5 : , 0, 0, 210
+location6 : , 0, 0, 0
+epoch, 15
+IH, 0.975483, HO, 0.995081
+location1 : , 0, 0, 430
+location2 : , 0, 0, 12299
+location3 : , 0, 0, 1889
+location4 : , 0, 0, 26204
+location5 : , 0, 0, 178
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.856544, HO, 0.996334
+location1 : , 0, 0, 6511
+location2 : , 0, 0, 24381
+location3 : , 0, 0, 430
+location4 : , 0, 0, 9646
+location5 : , 0, 0, 32
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.85554, HO, 0.980729
+location1 : , 0, 0, 7142
+location2 : , 0, 0, 23893
+location3 : , 0, 0, 1342
+location4 : , 0, 0, 8499
+location5 : , 0, 0, 124
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.836368, HO, 0.97736
+location1 : , 0, 0, 7791
+location2 : , 0, 0, 23354
+location3 : , 0, 0, 1849
+location4 : , 0, 0, 7853
+location5 : , 0, 0, 153
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.833074, HO, 0.977547
+location1 : , 0, 0, 8431
+location2 : , 0, 0, 23155
+location3 : , 0, 0, 1904
+location4 : , 0, 0, 7324
+location5 : , 0, 0, 186
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.830861, HO, 0.973872
+location1 : , 0, 0, 9012
+location2 : , 0, 0, 22702
+location3 : , 0, 0, 2211
+location4 : , 0, 0, 6882
+location5 : , 0, 0, 193
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.829769, HO, 0.977863
+location1 : , 0, 0, 9602
+location2 : , 0, 0, 22298
+location3 : , 0, 0, 2429
+location4 : , 0, 0, 6521
+location5 : , 0, 0, 150
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.826986, HO, 0.977612
+location1 : , 0, 0, 10205
+location2 : , 0, 0, 22214
+location3 : , 0, 0, 2246
+location4 : , 0, 0, 6209
+location5 : , 0, 0, 126
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.838988, HO, 0.981528
+location1 : , 0, 0, 11029
+location2 : , 0, 0, 21910
+location3 : , 0, 0, 2058
+location4 : , 0, 0, 5908
+location5 : , 0, 0, 95
+location6 : , 0, 0, 0
+epoch, 9
+IH, 0.840165, HO, 0.9842
+location1 : , 0, 0, 11105
+location2 : , 0, 0, 21967
+location3 : , 0, 0, 2186
+location4 : , 0, 0, 5645
+location5 : , 0, 0, 97
+location6 : , 0, 0, 0
+epoch, 10
+IH, 0.841919, HO, 0.984499
+location1 : , 0, 0, 11344
+location2 : , 0, 0, 21909
+location3 : , 0, 0, 2125
+location4 : , 0, 0, 5528
+location5 : , 0, 0, 94
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.919025, HO, 0.999326
+location1 : , 0, 0, 3613
+location2 : , 0, 0, 19221
+location3 : , 0, 0, 849
+location4 : , 0, 1, 17282
+location5 : , 0, 0, 34
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.94863, HO, 0.99849
+location1 : , 0, 0, 1385
+location2 : , 0, 0, 16384
+location3 : , 0, 0, 1792
+location4 : , 0, 0, 21366
+location5 : , 0, 0, 73
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.963641, HO, 0.996637
+location1 : , 0, 0, 926
+location2 : , 0, 0, 14585
+location3 : , 0, 0, 2003
+location4 : , 0, 1, 23363
+location5 : , 0, 0, 122
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.969469, HO, 0.997497
+location1 : , 0, 0, 764
+location2 : , 0, 0, 13804
+location3 : , 0, 0, 1941
+location4 : , 0, 0, 24375
+location5 : , 0, 0, 116
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.971862, HO, 0.99693
+location1 : , 0, 0, 679
+location2 : , 0, 0, 13486
+location3 : , 0, 0, 1883
+location4 : , 0, 0, 24843
+location5 : , 0, 0, 109
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.784268, HO, 0.979296
+location1 : , 0, 0, 3090
+location2 : , 0, 0, 22381
+location3 : , 0, 0, 4063
+location4 : , 0, 0, 11201
+location5 : , 0, 0, 265
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.772123, HO, 0.976151
+location1 : , 0, 0, 3876
+location2 : , 0, 0, 21853
+location3 : , 0, 0, 5542
+location4 : , 0, 0, 9437
+location5 : , 0, 0, 292
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.778237, HO, 0.978648
+location1 : , 0, 0, 4556
+location2 : , 0, 0, 21761
+location3 : , 0, 0, 5990
+location4 : , 0, 0, 8463
+location5 : , 0, 0, 230
+location6 : , 0, 0, 0
+epoch, 1
+IH, 0.891936, HO, 0.994529
+location1 : , 0, 0, 6673
+location2 : , 0, 0, 24337
+location3 : , 0, 0, 352
+location4 : , 0, 0, 9606
+location5 : , 0, 0, 32
+location6 : , 0, 0, 0
+epoch, 2
+IH, 0.872138, HO, 0.991688
+location1 : , 0, 0, 7550
+location2 : , 0, 0, 23938
+location3 : , 0, 0, 671
+location4 : , 0, 0, 8794
+location5 : , 0, 0, 47
+location6 : , 0, 0, 0
+epoch, 3
+IH, 0.874412, HO, 0.987908
+location1 : , 0, 0, 8063
+location2 : , 0, 0, 23782
+location3 : , 0, 0, 801
+location4 : , 0, 0, 8293
+location5 : , 0, 0, 61
+location6 : , 0, 0, 0
+epoch, 4
+IH, 0.870953, HO, 0.981942
+location1 : , 0, 0, 8022
+location2 : , 0, 0, 23736
+location3 : , 0, 0, 1004
+location4 : , 0, 0, 8155
+location5 : , 0, 0, 83
+location6 : , 0, 0, 0
+epoch, 5
+IH, 0.871058, HO, 0.977187
+location1 : , 0, 0, 8512
+location2 : , 0, 0, 23317
+location3 : , 0, 0, 1133
+location4 : , 0, 0, 7929
+location5 : , 0, 0, 109
+location6 : , 0, 0, 0
+epoch, 6
+IH, 0.87125, HO, 0.977949
+location1 : , 0, 0, 8871
+location2 : , 0, 0, 22984
+location3 : , 0, 0, 1284
+location4 : , 0, 0, 7746
+location5 : , 0, 0, 115
+location6 : , 0, 0, 0
+epoch, 7
+IH, 0.86858, HO, 0.976976
+location1 : , 0, 0, 9050
+location2 : , 0, 0, 22951
+location3 : , 0, 0, 1334
+location4 : , 0, 0, 7547
+location5 : , 0, 0, 118
+location6 : , 0, 0, 0
+epoch, 8
+IH, 0.865281, HO, 0.976012
+location1 : , 0, 0, 9855
+location2 : , 0, 0, 22211
+location3 : , 0, 0, 1384
+location4 : , 0, 0, 7402
+location5 : , 0, 0, 148
+location6 : , 0, 0, 0
+epoch, 9
+IH, 0.860529, HO, 0.97331
+location1 : , 0, 0, 9430
+location2 : , 0, 0, 22571
+location3 : , 0, 0, 1619
+location4 : , 0, 0, 7217
+location5 : , 0, 0, 163
+location6 : , 0, 0, 0
+epoch, 10
+IH, 0.858382, HO, 0.972067
+location1 : , 0, 0, 9882
+location2 : , 0, 0, 22109
+location3 : , 0, 0, 1868
+location4 : , 0, 0, 6972
+location5 : , 0, 0, 169
+location6 : , 0, 0, 0
+epoch, 11
+IH, 0.856663, HO, 0.972878
+location1 : , 0, 0, 9667
+location2 : , 0, 0, 22310
+location3 : , 0, 0, 2017
+location4 : , 0, 0, 6838
+location5 : , 0, 0, 168
+location6 : , 0, 0, 0
+epoch, 1
+IH, 1, HO, 1
+location1 : , 0, 0, 6978
+location2 : , 0, 0, 23945
+location3 : , 0, 0, 0
+location4 : , 0, 0, 10077
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 2
+IH, 1, HO, 1
+location1 : , 0, 0, 7037
+location2 : , 0, 0, 23902
+location3 : , 0, 0, 0
+location4 : , 0, 0, 10061
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 3
+IH, 1, HO, 1
+location1 : , 0, 0, 7052
+location2 : , 0, 0, 23890
+location3 : , 0, 0, 0
+location4 : , 0, 0, 10058
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 4
+IH, 1, HO, 1
+location1 : , 0, 0, 7061
+location2 : , 0, 0, 23881
+location3 : , 0, 0, 0
+location4 : , 0, 0, 10058
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 5
+IH, 1, HO, 1
+location1 : , 0, 0, 7066
+location2 : , 0, 0, 23879
+location3 : , 0, 0, 0
+location4 : , 0, 0, 10055
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 1
+IH, 1, HO, 1
+location1 : , 0, 0, 11997
+location2 : , 0, 0, 21792
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7211
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 2
+IH, 1, HO, 1
+location1 : , 0, 0, 12412
+location2 : , 0, 0, 21522
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7066
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 1
+IH, 1, HO, 1
+location1 : , 0, 3, 12613
+location2 : , 0, 0, 21536
+location3 : , 0, 0, 0
+location4 : , 0, 0, 6848
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 2
+IH, 1, HO, 1
+location1 : , 0, 2, 13254
+location2 : , 0, 0, 21090
+location3 : , 0, 0, 0
+location4 : , 0, 0, 6654
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 3
+IH, 1, HO, 1
+location1 : , 0, 2, 13451
+location2 : , 0, 0, 20961
+location3 : , 0, 0, 0
+location4 : , 0, 0, 6586
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 4
+IH, 1, HO, 1
+location1 : , 0, 8, 13798
+location2 : , 0, 0, 20721
+location3 : , 0, 0, 0
+location4 : , 0, 0, 6473
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 5
+IH, 1, HO, 1
+location1 : , 0, 18, 13912
+location2 : , 0, 0, 20638
+location3 : , 0, 0, 0
+location4 : , 0, 0, 6432
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 1
+IH, 1, HO, 1
+location1 : , 0, 0, 5857
+location2 : , 0, 0, 23437
+location3 : , 0, 0, 0
+location4 : , 0, 0, 11706
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 2
+IH, 1, HO, 1
+location1 : , 0, 0, 5857
+location2 : , 0, 0, 23437
+location3 : , 0, 0, 0
+location4 : , 0, 0, 11706
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 3
+IH, 1, HO, 1
+location1 : , 0, 0, 5857
+location2 : , 0, 0, 23437
+location3 : , 0, 0, 0
+location4 : , 0, 0, 11706
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 4
+IH, 1, HO, 1
+location1 : , 0, 0, 5857
+location2 : , 0, 0, 23437
+location3 : , 0, 0, 0
+location4 : , 0, 0, 11706
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 5
+IH, 1, HO, 1
+location1 : , 0, 0, 5857
+location2 : , 0, 0, 23437
+location3 : , 0, 0, 0
+location4 : , 0, 0, 11706
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 1
+IH, 1, HO, 1
+location1 : , 0, 34, 11581
+location2 : , 0, 0, 22069
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7316
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 2
+IH, 1, HO, 1
+location1 : , 0, 0, 11958
+location2 : , 0, 0, 21881
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7161
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 3
+IH, 1, HO, 1
+location1 : , 0, 0, 12091
+location2 : , 0, 0, 21827
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7082
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 4
+IH, 1, HO, 1
+location1 : , 0, 0, 12162
+location2 : , 0, 0, 21791
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7047
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 5
+IH, 1, HO, 1
+location1 : , 0, 0, 12236
+location2 : , 0, 0, 21735
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7029
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 6
+IH, 1, HO, 1
+location1 : , 0, 0, 12304
+location2 : , 0, 0, 21691
+location3 : , 0, 0, 0
+location4 : , 0, 0, 7005
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 1
+IH, 1, HO, 1
+location1 : , 0, 0, 6088
+location2 : , 0, 0, 23412
+location3 : , 0, 0, 0
+location4 : , 0, 0, 11500
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0
+epoch, 2
+IH, 1, HO, 1
+location1 : , 0, 0, 6124
+location2 : , 0, 0, 23408
+location3 : , 0, 0, 0
+location4 : , 0, 52, 11416
+location5 : , 0, 0, 0
+location6 : , 0, 0, 0

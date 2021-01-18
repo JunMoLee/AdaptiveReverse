@@ -1,0 +1,1480 @@
+epoch, 1
+0.041175
+count [L.N(Gp)+L.N(Gn) = 2] : , 1647
+count [L.N(Gp)+L.N(Gn) = 3] : , 16717
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1777
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 20834
+count [L.N(Gp)+L.N(Gn) = 5] : , 25
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.024225
+count [L.N(Gp)+L.N(Gn) = 2] : , 969
+count [L.N(Gp)+L.N(Gn) = 3] : , 14400
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1810
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 23800
+count [L.N(Gp)+L.N(Gn) = 5] : , 21
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.018625
+count [L.N(Gp)+L.N(Gn) = 2] : , 745
+count [L.N(Gp)+L.N(Gn) = 3] : , 12908
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1910
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25380
+count [L.N(Gp)+L.N(Gn) = 5] : , 57
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.015475
+count [L.N(Gp)+L.N(Gn) = 2] : , 619
+count [L.N(Gp)+L.N(Gn) = 3] : , 12573
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1463
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26312
+count [L.N(Gp)+L.N(Gn) = 5] : , 33
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.0134146
+count [L.N(Gp)+L.N(Gn) = 2] : , 550
+count [L.N(Gp)+L.N(Gn) = 3] : , 11786
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1578
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27025
+count [L.N(Gp)+L.N(Gn) = 5] : , 61
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.01235
+count [L.N(Gp)+L.N(Gn) = 2] : , 494
+count [L.N(Gp)+L.N(Gn) = 3] : , 11398
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1551
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27508
+count [L.N(Gp)+L.N(Gn) = 5] : , 49
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.0110976
+count [L.N(Gp)+L.N(Gn) = 2] : , 455
+count [L.N(Gp)+L.N(Gn) = 3] : , 11163
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1388
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27948
+count [L.N(Gp)+L.N(Gn) = 5] : , 46
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.010775
+count [L.N(Gp)+L.N(Gn) = 2] : , 431
+count [L.N(Gp)+L.N(Gn) = 3] : , 10640
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1458
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28417
+count [L.N(Gp)+L.N(Gn) = 5] : , 54
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 9
+0.0103
+count [L.N(Gp)+L.N(Gn) = 2] : , 412
+count [L.N(Gp)+L.N(Gn) = 3] : , 10299
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1543
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28686
+count [L.N(Gp)+L.N(Gn) = 5] : , 60
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 10
+0.009775
+count [L.N(Gp)+L.N(Gn) = 2] : , 391
+count [L.N(Gp)+L.N(Gn) = 3] : , 10204
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1394
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28962
+count [L.N(Gp)+L.N(Gn) = 5] : , 49
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 11
+0.009225
+count [L.N(Gp)+L.N(Gn) = 2] : , 369
+count [L.N(Gp)+L.N(Gn) = 3] : , 9859
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1482
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 29204
+count [L.N(Gp)+L.N(Gn) = 5] : , 86
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 12
+0.00905
+count [L.N(Gp)+L.N(Gn) = 2] : , 362
+count [L.N(Gp)+L.N(Gn) = 3] : , 9864
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1283
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 29459
+count [L.N(Gp)+L.N(Gn) = 5] : , 32
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 13
+0.008875
+count [L.N(Gp)+L.N(Gn) = 2] : , 355
+count [L.N(Gp)+L.N(Gn) = 3] : , 9506
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1485
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 29550
+count [L.N(Gp)+L.N(Gn) = 5] : , 104
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 14
+0.0087
+count [L.N(Gp)+L.N(Gn) = 2] : , 348
+count [L.N(Gp)+L.N(Gn) = 3] : , 9325
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1525
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 29747
+count [L.N(Gp)+L.N(Gn) = 5] : , 55
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 15
+0.008475
+count [L.N(Gp)+L.N(Gn) = 2] : , 339
+count [L.N(Gp)+L.N(Gn) = 3] : , 9329
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1296
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 29975
+count [L.N(Gp)+L.N(Gn) = 5] : , 61
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 16
+0.00835
+count [L.N(Gp)+L.N(Gn) = 2] : , 334
+count [L.N(Gp)+L.N(Gn) = 3] : , 9041
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1413
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 30136
+count [L.N(Gp)+L.N(Gn) = 5] : , 76
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 17
+inf
+count [L.N(Gp)+L.N(Gn) = 2] : , 325
+count [L.N(Gp)+L.N(Gn) = 3] : , 9022
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1338
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 30245
+count [L.N(Gp)+L.N(Gn) = 5] : , 70
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.0985779
+count [L.N(Gp)+L.N(Gn) = 2] : , 1837
+count [L.N(Gp)+L.N(Gn) = 3] : , 16798
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1859
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 20477
+count [L.N(Gp)+L.N(Gn) = 5] : , 29
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.0655221
+count [L.N(Gp)+L.N(Gn) = 2] : , 1019
+count [L.N(Gp)+L.N(Gn) = 3] : , 14533
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1856
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 23562
+count [L.N(Gp)+L.N(Gn) = 5] : , 30
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.0551299
+count [L.N(Gp)+L.N(Gn) = 2] : , 770
+count [L.N(Gp)+L.N(Gn) = 3] : , 13197
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1568
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25447
+count [L.N(Gp)+L.N(Gn) = 5] : , 18
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.0502849
+count [L.N(Gp)+L.N(Gn) = 2] : , 653
+count [L.N(Gp)+L.N(Gn) = 3] : , 12333
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1445
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26537
+count [L.N(Gp)+L.N(Gn) = 5] : , 32
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.0480863
+count [L.N(Gp)+L.N(Gn) = 2] : , 593
+count [L.N(Gp)+L.N(Gn) = 3] : , 11739
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1405
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27214
+count [L.N(Gp)+L.N(Gn) = 5] : , 49
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.210073
+count [L.N(Gp)+L.N(Gn) = 2] : , 6386
+count [L.N(Gp)+L.N(Gn) = 3] : , 24013
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 35
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10557
+count [L.N(Gp)+L.N(Gn) = 5] : , 9
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.209876
+count [L.N(Gp)+L.N(Gn) = 2] : , 6367
+count [L.N(Gp)+L.N(Gn) = 3] : , 23970
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 581
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10005
+count [L.N(Gp)+L.N(Gn) = 5] : , 77
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.219973
+count [L.N(Gp)+L.N(Gn) = 2] : , 6727
+count [L.N(Gp)+L.N(Gn) = 3] : , 23854
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1018
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9283
+count [L.N(Gp)+L.N(Gn) = 5] : , 118
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.227589
+count [L.N(Gp)+L.N(Gn) = 2] : , 7025
+count [L.N(Gp)+L.N(Gn) = 3] : , 23842
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1286
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8725
+count [L.N(Gp)+L.N(Gn) = 5] : , 122
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.240814
+count [L.N(Gp)+L.N(Gn) = 2] : , 7458
+count [L.N(Gp)+L.N(Gn) = 3] : , 23512
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1518
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8382
+count [L.N(Gp)+L.N(Gn) = 5] : , 130
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.252248
+count [L.N(Gp)+L.N(Gn) = 2] : , 7825
+count [L.N(Gp)+L.N(Gn) = 3] : , 23196
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1796
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8019
+count [L.N(Gp)+L.N(Gn) = 5] : , 164
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.268523
+count [L.N(Gp)+L.N(Gn) = 2] : , 8408
+count [L.N(Gp)+L.N(Gn) = 3] : , 22904
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1919
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7555
+count [L.N(Gp)+L.N(Gn) = 5] : , 214
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.286249
+count [L.N(Gp)+L.N(Gn) = 2] : , 9022
+count [L.N(Gp)+L.N(Gn) = 3] : , 22496
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2048
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7253
+count [L.N(Gp)+L.N(Gn) = 5] : , 181
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 9
+0.309782
+count [L.N(Gp)+L.N(Gn) = 2] : , 9817
+count [L.N(Gp)+L.N(Gn) = 3] : , 21873
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2254
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6890
+count [L.N(Gp)+L.N(Gn) = 5] : , 166
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.302372
+count [L.N(Gp)+L.N(Gn) = 2] : , 10033
+count [L.N(Gp)+L.N(Gn) = 3] : , 23148
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 234
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7571
+count [L.N(Gp)+L.N(Gn) = 5] : , 14
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.36897
+count [L.N(Gp)+L.N(Gn) = 2] : , 12604
+count [L.N(Gp)+L.N(Gn) = 3] : , 21556
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 356
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6466
+count [L.N(Gp)+L.N(Gn) = 5] : , 18
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.421612
+count [L.N(Gp)+L.N(Gn) = 2] : , 14565
+count [L.N(Gp)+L.N(Gn) = 3] : , 19981
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 525
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 5910
+count [L.N(Gp)+L.N(Gn) = 5] : , 19
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.447623
+count [L.N(Gp)+L.N(Gn) = 2] : , 15665
+count [L.N(Gp)+L.N(Gn) = 3] : , 19331
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 545
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 5442
+count [L.N(Gp)+L.N(Gn) = 5] : , 17
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.480529
+count [L.N(Gp)+L.N(Gn) = 2] : , 16967
+count [L.N(Gp)+L.N(Gn) = 3] : , 18342
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 614
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 5062
+count [L.N(Gp)+L.N(Gn) = 5] : , 15
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.498563
+count [L.N(Gp)+L.N(Gn) = 2] : , 17697
+count [L.N(Gp)+L.N(Gn) = 3] : , 17799
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 651
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 4835
+count [L.N(Gp)+L.N(Gn) = 5] : , 18
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.514535
+count [L.N(Gp)+L.N(Gn) = 2] : , 18302
+count [L.N(Gp)+L.N(Gn) = 3] : , 17268
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 675
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 4736
+count [L.N(Gp)+L.N(Gn) = 5] : , 19
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.522921
+count [L.N(Gp)+L.N(Gn) = 2] : , 18616
+count [L.N(Gp)+L.N(Gn) = 3] : , 16984
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 710
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 4671
+count [L.N(Gp)+L.N(Gn) = 5] : , 19
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.146453
+count [L.N(Gp)+L.N(Gn) = 2] : , 3159
+count [L.N(Gp)+L.N(Gn) = 3] : , 18411
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1531
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 17826
+count [L.N(Gp)+L.N(Gn) = 5] : , 73
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.0983965
+count [L.N(Gp)+L.N(Gn) = 2] : , 1847
+count [L.N(Gp)+L.N(Gn) = 3] : , 16924
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1939
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 20220
+count [L.N(Gp)+L.N(Gn) = 5] : , 70
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.0669078
+count [L.N(Gp)+L.N(Gn) = 2] : , 1073
+count [L.N(Gp)+L.N(Gn) = 3] : , 14964
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2172
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 22647
+count [L.N(Gp)+L.N(Gn) = 5] : , 144
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.0580632
+count [L.N(Gp)+L.N(Gn) = 2] : , 858
+count [L.N(Gp)+L.N(Gn) = 3] : , 13919
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2196
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 23874
+count [L.N(Gp)+L.N(Gn) = 5] : , 153
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.0518009
+count [L.N(Gp)+L.N(Gn) = 2] : , 745
+count [L.N(Gp)+L.N(Gn) = 3] : , 13637
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1937
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 24538
+count [L.N(Gp)+L.N(Gn) = 5] : , 143
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.0487434
+count [L.N(Gp)+L.N(Gn) = 2] : , 673
+count [L.N(Gp)+L.N(Gn) = 3] : , 13134
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2077
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 24985
+count [L.N(Gp)+L.N(Gn) = 5] : , 131
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.0463122
+count [L.N(Gp)+L.N(Gn) = 2] : , 621
+count [L.N(Gp)+L.N(Gn) = 3] : , 12788
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2105
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25305
+count [L.N(Gp)+L.N(Gn) = 5] : , 181
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.0433062
+count [L.N(Gp)+L.N(Gn) = 2] : , 580
+count [L.N(Gp)+L.N(Gn) = 3] : , 12813
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1970
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25512
+count [L.N(Gp)+L.N(Gn) = 5] : , 125
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 9
+0.0418626
+count [L.N(Gp)+L.N(Gn) = 2] : , 552
+count [L.N(Gp)+L.N(Gn) = 3] : , 12634
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1968
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25711
+count [L.N(Gp)+L.N(Gn) = 5] : , 135
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 10
+0.0399661
+count [L.N(Gp)+L.N(Gn) = 2] : , 518
+count [L.N(Gp)+L.N(Gn) = 3] : , 12443
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2020
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25891
+count [L.N(Gp)+L.N(Gn) = 5] : , 128
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 11
+0.0390613
+count [L.N(Gp)+L.N(Gn) = 2] : , 496
+count [L.N(Gp)+L.N(Gn) = 3] : , 12202
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2183
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25943
+count [L.N(Gp)+L.N(Gn) = 5] : , 176
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 12
+0.0379826
+count [L.N(Gp)+L.N(Gn) = 2] : , 485
+count [L.N(Gp)+L.N(Gn) = 3] : , 12284
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2019
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26069
+count [L.N(Gp)+L.N(Gn) = 5] : , 143
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 13
+0.0366648
+count [L.N(Gp)+L.N(Gn) = 2] : , 467
+count [L.N(Gp)+L.N(Gn) = 3] : , 12270
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1964
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26149
+count [L.N(Gp)+L.N(Gn) = 5] : , 150
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 14
+0.0364328
+count [L.N(Gp)+L.N(Gn) = 2] : , 460
+count [L.N(Gp)+L.N(Gn) = 3] : , 12166
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2032
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26191
+count [L.N(Gp)+L.N(Gn) = 5] : , 151
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 15
+0.0357681
+count [L.N(Gp)+L.N(Gn) = 2] : , 451
+count [L.N(Gp)+L.N(Gn) = 3] : , 12158
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1916
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26322
+count [L.N(Gp)+L.N(Gn) = 5] : , 153
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 16
+0.0352556
+count [L.N(Gp)+L.N(Gn) = 2] : , 442
+count [L.N(Gp)+L.N(Gn) = 3] : , 12095
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1907
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26419
+count [L.N(Gp)+L.N(Gn) = 5] : , 137
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 17
+0.034589
+count [L.N(Gp)+L.N(Gn) = 2] : , 438
+count [L.N(Gp)+L.N(Gn) = 3] : , 12225
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1751
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26476
+count [L.N(Gp)+L.N(Gn) = 5] : , 110
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 18
+0.034202
+count [L.N(Gp)+L.N(Gn) = 2] : , 420
+count [L.N(Gp)+L.N(Gn) = 3] : , 11860
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1997
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26570
+count [L.N(Gp)+L.N(Gn) = 5] : , 153
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 19
+0.0330065
+count [L.N(Gp)+L.N(Gn) = 2] : , 404
+count [L.N(Gp)+L.N(Gn) = 3] : , 11836
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1971
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26641
+count [L.N(Gp)+L.N(Gn) = 5] : , 148
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 20
+0.031889
+count [L.N(Gp)+L.N(Gn) = 2] : , 393
+count [L.N(Gp)+L.N(Gn) = 3] : , 11931
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1760
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26766
+count [L.N(Gp)+L.N(Gn) = 5] : , 150
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 21
+0.0318973
+count [L.N(Gp)+L.N(Gn) = 2] : , 385
+count [L.N(Gp)+L.N(Gn) = 3] : , 11685
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2007
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26761
+count [L.N(Gp)+L.N(Gn) = 5] : , 162
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 22
+0.0310585
+count [L.N(Gp)+L.N(Gn) = 2] : , 375
+count [L.N(Gp)+L.N(Gn) = 3] : , 11699
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1905
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26879
+count [L.N(Gp)+L.N(Gn) = 5] : , 142
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 23
+0.0310444
+count [L.N(Gp)+L.N(Gn) = 2] : , 368
+count [L.N(Gp)+L.N(Gn) = 3] : , 11486
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1971
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27002
+count [L.N(Gp)+L.N(Gn) = 5] : , 173
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 24
+0.0311537
+count [L.N(Gp)+L.N(Gn) = 2] : , 364
+count [L.N(Gp)+L.N(Gn) = 3] : , 11320
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2066
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27029
+count [L.N(Gp)+L.N(Gn) = 5] : , 221
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 25
+0.0305949
+count [L.N(Gp)+L.N(Gn) = 2] : , 359
+count [L.N(Gp)+L.N(Gn) = 3] : , 11375
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1993
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27088
+count [L.N(Gp)+L.N(Gn) = 5] : , 185
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 26
+0.0302433
+count [L.N(Gp)+L.N(Gn) = 2] : , 353
+count [L.N(Gp)+L.N(Gn) = 3] : , 11319
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2076
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27005
+count [L.N(Gp)+L.N(Gn) = 5] : , 247
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 27
+0.0297165
+count [L.N(Gp)+L.N(Gn) = 2] : , 347
+count [L.N(Gp)+L.N(Gn) = 3] : , 11330
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2030
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27122
+count [L.N(Gp)+L.N(Gn) = 5] : , 171
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 28
+0.0292962
+count [L.N(Gp)+L.N(Gn) = 2] : , 343
+count [L.N(Gp)+L.N(Gn) = 3] : , 11365
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1961
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27175
+count [L.N(Gp)+L.N(Gn) = 5] : , 156
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 29
+0.028814
+count [L.N(Gp)+L.N(Gn) = 2] : , 336
+count [L.N(Gp)+L.N(Gn) = 3] : , 11325
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1937
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27265
+count [L.N(Gp)+L.N(Gn) = 5] : , 137
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 30
+0.0283051
+count [L.N(Gp)+L.N(Gn) = 2] : , 328
+count [L.N(Gp)+L.N(Gn) = 3] : , 11260
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1983
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27229
+count [L.N(Gp)+L.N(Gn) = 5] : , 200
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 31
+0.0282476
+count [L.N(Gp)+L.N(Gn) = 2] : , 324
+count [L.N(Gp)+L.N(Gn) = 3] : , 11146
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2077
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27242
+count [L.N(Gp)+L.N(Gn) = 5] : , 211
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 32
+0.0272508
+count [L.N(Gp)+L.N(Gn) = 2] : , 316
+count [L.N(Gp)+L.N(Gn) = 3] : , 11280
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1914
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27360
+count [L.N(Gp)+L.N(Gn) = 5] : , 130
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 33
+0.02686
+count [L.N(Gp)+L.N(Gn) = 2] : , 313
+count [L.N(Gp)+L.N(Gn) = 3] : , 11340
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1789
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27450
+count [L.N(Gp)+L.N(Gn) = 5] : , 108
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 34
+0.0257877
+count [L.N(Gp)+L.N(Gn) = 2] : , 302
+count [L.N(Gp)+L.N(Gn) = 3] : , 11409
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1777
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27404
+count [L.N(Gp)+L.N(Gn) = 5] : , 108
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 35
+0.0256543
+count [L.N(Gp)+L.N(Gn) = 2] : , 297
+count [L.N(Gp)+L.N(Gn) = 3] : , 11280
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1813
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27465
+count [L.N(Gp)+L.N(Gn) = 5] : , 145
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 36
+0.0253905
+count [L.N(Gp)+L.N(Gn) = 2] : , 291
+count [L.N(Gp)+L.N(Gn) = 3] : , 11170
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1883
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27461
+count [L.N(Gp)+L.N(Gn) = 5] : , 195
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 37
+0.0250792
+count [L.N(Gp)+L.N(Gn) = 2] : , 285
+count [L.N(Gp)+L.N(Gn) = 3] : , 11079
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1949
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27489
+count [L.N(Gp)+L.N(Gn) = 5] : , 198
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 38
+0.0250242
+count [L.N(Gp)+L.N(Gn) = 2] : , 284
+count [L.N(Gp)+L.N(Gn) = 3] : , 11065
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1866
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27626
+count [L.N(Gp)+L.N(Gn) = 5] : , 159
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 39
+0.0246696
+count [L.N(Gp)+L.N(Gn) = 2] : , 280
+count [L.N(Gp)+L.N(Gn) = 3] : , 11070
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1884
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27614
+count [L.N(Gp)+L.N(Gn) = 5] : , 152
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 40
+0.0250543
+count [L.N(Gp)+L.N(Gn) = 2] : , 277
+count [L.N(Gp)+L.N(Gn) = 3] : , 10779
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2152
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27617
+count [L.N(Gp)+L.N(Gn) = 5] : , 175
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 41
+0.0240996
+count [L.N(Gp)+L.N(Gn) = 2] : , 273
+count [L.N(Gp)+L.N(Gn) = 3] : , 11055
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1777
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27715
+count [L.N(Gp)+L.N(Gn) = 5] : , 180
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 42
+0.024472
+count [L.N(Gp)+L.N(Gn) = 2] : , 270
+count [L.N(Gp)+L.N(Gn) = 3] : , 10763
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1972
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27792
+count [L.N(Gp)+L.N(Gn) = 5] : , 203
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 43
+0.0235567
+count [L.N(Gp)+L.N(Gn) = 2] : , 264
+count [L.N(Gp)+L.N(Gn) = 3] : , 10943
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1800
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27855
+count [L.N(Gp)+L.N(Gn) = 5] : , 138
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 44
+0.0239526
+count [L.N(Gp)+L.N(Gn) = 2] : , 263
+count [L.N(Gp)+L.N(Gn) = 3] : , 10717
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1982
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27871
+count [L.N(Gp)+L.N(Gn) = 5] : , 167
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 45
+0.0235845
+count [L.N(Gp)+L.N(Gn) = 2] : , 262
+count [L.N(Gp)+L.N(Gn) = 3] : , 10847
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1821
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27918
+count [L.N(Gp)+L.N(Gn) = 5] : , 152
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 46
+0.0240044
+count [L.N(Gp)+L.N(Gn) = 2] : , 261
+count [L.N(Gp)+L.N(Gn) = 3] : , 10612
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1978
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 27960
+count [L.N(Gp)+L.N(Gn) = 5] : , 189
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 47
+0.0239866
+count [L.N(Gp)+L.N(Gn) = 2] : , 258
+count [L.N(Gp)+L.N(Gn) = 3] : , 10498
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2025
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28014
+count [L.N(Gp)+L.N(Gn) = 5] : , 205
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 48
+0.023374
+count [L.N(Gp)+L.N(Gn) = 2] : , 253
+count [L.N(Gp)+L.N(Gn) = 3] : , 10571
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1921
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28064
+count [L.N(Gp)+L.N(Gn) = 5] : , 191
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 49
+0.023622
+count [L.N(Gp)+L.N(Gn) = 2] : , 252
+count [L.N(Gp)+L.N(Gn) = 3] : , 10416
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1966
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28216
+count [L.N(Gp)+L.N(Gn) = 5] : , 150
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 50
+0.0238369
+count [L.N(Gp)+L.N(Gn) = 2] : , 249
+count [L.N(Gp)+L.N(Gn) = 3] : , 10197
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2124
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28196
+count [L.N(Gp)+L.N(Gn) = 5] : , 234
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 51
+0.0227888
+count [L.N(Gp)+L.N(Gn) = 2] : , 244
+count [L.N(Gp)+L.N(Gn) = 3] : , 10463
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1839
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28285
+count [L.N(Gp)+L.N(Gn) = 5] : , 169
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 52
+0.0229502
+count [L.N(Gp)+L.N(Gn) = 2] : , 241
+count [L.N(Gp)+L.N(Gn) = 3] : , 10260
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1970
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28333
+count [L.N(Gp)+L.N(Gn) = 5] : , 196
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 53
+0.0229643
+count [L.N(Gp)+L.N(Gn) = 2] : , 240
+count [L.N(Gp)+L.N(Gn) = 3] : , 10211
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1961
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28417
+count [L.N(Gp)+L.N(Gn) = 5] : , 171
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 54
+0.0227535
+count [L.N(Gp)+L.N(Gn) = 2] : , 237
+count [L.N(Gp)+L.N(Gn) = 3] : , 10179
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2039
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28358
+count [L.N(Gp)+L.N(Gn) = 5] : , 187
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 55
+0.0222645
+count [L.N(Gp)+L.N(Gn) = 2] : , 234
+count [L.N(Gp)+L.N(Gn) = 3] : , 10276
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2016
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28297
+count [L.N(Gp)+L.N(Gn) = 5] : , 177
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 56
+0.0222565
+count [L.N(Gp)+L.N(Gn) = 2] : , 231
+count [L.N(Gp)+L.N(Gn) = 3] : , 10148
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2150
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28231
+count [L.N(Gp)+L.N(Gn) = 5] : , 240
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 57
+0.0218258
+count [L.N(Gp)+L.N(Gn) = 2] : , 230
+count [L.N(Gp)+L.N(Gn) = 3] : , 10308
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1964
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28349
+count [L.N(Gp)+L.N(Gn) = 5] : , 149
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 58
+0.0219706
+count [L.N(Gp)+L.N(Gn) = 2] : , 227
+count [L.N(Gp)+L.N(Gn) = 3] : , 10105
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2092
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28377
+count [L.N(Gp)+L.N(Gn) = 5] : , 199
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 59
+0.0215279
+count [L.N(Gp)+L.N(Gn) = 2] : , 226
+count [L.N(Gp)+L.N(Gn) = 3] : , 10272
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1828
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28543
+count [L.N(Gp)+L.N(Gn) = 5] : , 131
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 60
+0.0215628
+count [L.N(Gp)+L.N(Gn) = 2] : , 226
+count [L.N(Gp)+L.N(Gn) = 3] : , 10255
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1773
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 28572
+count [L.N(Gp)+L.N(Gn) = 5] : , 174
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.212525
+count [L.N(Gp)+L.N(Gn) = 2] : , 6570
+count [L.N(Gp)+L.N(Gn) = 3] : , 24344
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 308
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9738
+count [L.N(Gp)+L.N(Gn) = 5] : , 40
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.233777
+count [L.N(Gp)+L.N(Gn) = 2] : , 7331
+count [L.N(Gp)+L.N(Gn) = 3] : , 24028
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 764
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8825
+count [L.N(Gp)+L.N(Gn) = 5] : , 52
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.252858
+count [L.N(Gp)+L.N(Gn) = 2] : , 7984
+count [L.N(Gp)+L.N(Gn) = 3] : , 23591
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1057
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8281
+count [L.N(Gp)+L.N(Gn) = 5] : , 87
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.250334
+count [L.N(Gp)+L.N(Gn) = 2] : , 7870
+count [L.N(Gp)+L.N(Gn) = 3] : , 23568
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1577
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7854
+count [L.N(Gp)+L.N(Gn) = 5] : , 131
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.284218
+count [L.N(Gp)+L.N(Gn) = 2] : , 9008
+count [L.N(Gp)+L.N(Gn) = 3] : , 22686
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1650
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7552
+count [L.N(Gp)+L.N(Gn) = 5] : , 104
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.291454
+count [L.N(Gp)+L.N(Gn) = 2] : , 9321
+count [L.N(Gp)+L.N(Gn) = 3] : , 22660
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1712
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7215
+count [L.N(Gp)+L.N(Gn) = 5] : , 92
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.289267
+count [L.N(Gp)+L.N(Gn) = 2] : , 9282
+count [L.N(Gp)+L.N(Gn) = 3] : , 22806
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1878
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6925
+count [L.N(Gp)+L.N(Gn) = 5] : , 109
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.286855
+count [L.N(Gp)+L.N(Gn) = 2] : , 9303
+count [L.N(Gp)+L.N(Gn) = 3] : , 23128
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1798
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6698
+count [L.N(Gp)+L.N(Gn) = 5] : , 73
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 9
+0.296849
+count [L.N(Gp)+L.N(Gn) = 2] : , 9693
+count [L.N(Gp)+L.N(Gn) = 3] : , 22960
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1848
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6454
+count [L.N(Gp)+L.N(Gn) = 5] : , 45
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 10
+0.316282
+count [L.N(Gp)+L.N(Gn) = 2] : , 10400
+count [L.N(Gp)+L.N(Gn) = 3] : , 22482
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1773
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6300
+count [L.N(Gp)+L.N(Gn) = 5] : , 45
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.210672
+count [L.N(Gp)+L.N(Gn) = 2] : , 6550
+count [L.N(Gp)+L.N(Gn) = 3] : , 24541
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 185
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9708
+count [L.N(Gp)+L.N(Gn) = 5] : , 16
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.206747
+count [L.N(Gp)+L.N(Gn) = 2] : , 6227
+count [L.N(Gp)+L.N(Gn) = 3] : , 23892
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 45
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10835
+count [L.N(Gp)+L.N(Gn) = 5] : , 1
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.216071
+count [L.N(Gp)+L.N(Gn) = 2] : , 6577
+count [L.N(Gp)+L.N(Gn) = 3] : , 23862
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 132
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10415
+count [L.N(Gp)+L.N(Gn) = 5] : , 14
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.216202
+count [L.N(Gp)+L.N(Gn) = 2] : , 6552
+count [L.N(Gp)+L.N(Gn) = 3] : , 23753
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 837
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9761
+count [L.N(Gp)+L.N(Gn) = 5] : , 97
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.228811
+count [L.N(Gp)+L.N(Gn) = 2] : , 7046
+count [L.N(Gp)+L.N(Gn) = 3] : , 23748
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1008
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9119
+count [L.N(Gp)+L.N(Gn) = 5] : , 79
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.236022
+count [L.N(Gp)+L.N(Gn) = 2] : , 7282
+count [L.N(Gp)+L.N(Gn) = 3] : , 23571
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1341
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8693
+count [L.N(Gp)+L.N(Gn) = 5] : , 113
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.253889
+count [L.N(Gp)+L.N(Gn) = 2] : , 7931
+count [L.N(Gp)+L.N(Gn) = 3] : , 23307
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1554
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8116
+count [L.N(Gp)+L.N(Gn) = 5] : , 92
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.107983
+count [L.N(Gp)+L.N(Gn) = 2] : , 2144
+count [L.N(Gp)+L.N(Gn) = 3] : , 17711
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1487
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 19624
+count [L.N(Gp)+L.N(Gn) = 5] : , 34
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.0693069
+count [L.N(Gp)+L.N(Gn) = 2] : , 1106
+count [L.N(Gp)+L.N(Gn) = 3] : , 14852
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2193
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 22680
+count [L.N(Gp)+L.N(Gn) = 5] : , 169
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.0559847
+count [L.N(Gp)+L.N(Gn) = 2] : , 848
+count [L.N(Gp)+L.N(Gn) = 3] : , 14299
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2050
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 23641
+count [L.N(Gp)+L.N(Gn) = 5] : , 162
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.0499592
+count [L.N(Gp)+L.N(Gn) = 2] : , 734
+count [L.N(Gp)+L.N(Gn) = 3] : , 13958
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1931
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 24246
+count [L.N(Gp)+L.N(Gn) = 5] : , 131
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.046754
+count [L.N(Gp)+L.N(Gn) = 2] : , 664
+count [L.N(Gp)+L.N(Gn) = 3] : , 13538
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1976
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 24678
+count [L.N(Gp)+L.N(Gn) = 5] : , 144
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.0443257
+count [L.N(Gp)+L.N(Gn) = 2] : , 614
+count [L.N(Gp)+L.N(Gn) = 3] : , 13238
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1991
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 24997
+count [L.N(Gp)+L.N(Gn) = 5] : , 160
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.0411227
+count [L.N(Gp)+L.N(Gn) = 2] : , 567
+count [L.N(Gp)+L.N(Gn) = 3] : , 13221
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1715
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25371
+count [L.N(Gp)+L.N(Gn) = 5] : , 126
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.0394154
+count [L.N(Gp)+L.N(Gn) = 2] : , 534
+count [L.N(Gp)+L.N(Gn) = 3] : , 13014
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1886
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25413
+count [L.N(Gp)+L.N(Gn) = 5] : , 153
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 9
+0.038476
+count [L.N(Gp)+L.N(Gn) = 2] : , 510
+count [L.N(Gp)+L.N(Gn) = 3] : , 12745
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2015
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25541
+count [L.N(Gp)+L.N(Gn) = 5] : , 189
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 10
+0.0368038
+count [L.N(Gp)+L.N(Gn) = 2] : , 491
+count [L.N(Gp)+L.N(Gn) = 3] : , 12850
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1921
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25547
+count [L.N(Gp)+L.N(Gn) = 5] : , 191
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 11
+0.0358924
+count [L.N(Gp)+L.N(Gn) = 2] : , 475
+count [L.N(Gp)+L.N(Gn) = 3] : , 12759
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1939
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25658
+count [L.N(Gp)+L.N(Gn) = 5] : , 169
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 12
+0.0355634
+count [L.N(Gp)+L.N(Gn) = 2] : , 463
+count [L.N(Gp)+L.N(Gn) = 3] : , 12556
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2016
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25760
+count [L.N(Gp)+L.N(Gn) = 5] : , 205
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 13
+0.0345597
+count [L.N(Gp)+L.N(Gn) = 2] : , 449
+count [L.N(Gp)+L.N(Gn) = 3] : , 12543
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1911
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 25981
+count [L.N(Gp)+L.N(Gn) = 5] : , 116
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 14
+0.0344503
+count [L.N(Gp)+L.N(Gn) = 2] : , 439
+count [L.N(Gp)+L.N(Gn) = 3] : , 12304
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2036
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26011
+count [L.N(Gp)+L.N(Gn) = 5] : , 210
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 15
+0.0337811
+count [L.N(Gp)+L.N(Gn) = 2] : , 430
+count [L.N(Gp)+L.N(Gn) = 3] : , 12299
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1889
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 26204
+count [L.N(Gp)+L.N(Gn) = 5] : , 178
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.210767
+count [L.N(Gp)+L.N(Gn) = 2] : , 6511
+count [L.N(Gp)+L.N(Gn) = 3] : , 24381
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 430
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9646
+count [L.N(Gp)+L.N(Gn) = 5] : , 32
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.230127
+count [L.N(Gp)+L.N(Gn) = 2] : , 7142
+count [L.N(Gp)+L.N(Gn) = 3] : , 23893
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1342
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8499
+count [L.N(Gp)+L.N(Gn) = 5] : , 124
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.250153
+count [L.N(Gp)+L.N(Gn) = 2] : , 7791
+count [L.N(Gp)+L.N(Gn) = 3] : , 23354
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1849
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7853
+count [L.N(Gp)+L.N(Gn) = 5] : , 153
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.266922
+count [L.N(Gp)+L.N(Gn) = 2] : , 8431
+count [L.N(Gp)+L.N(Gn) = 3] : , 23155
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1904
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7324
+count [L.N(Gp)+L.N(Gn) = 5] : , 186
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.284165
+count [L.N(Gp)+L.N(Gn) = 2] : , 9012
+count [L.N(Gp)+L.N(Gn) = 3] : , 22702
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2211
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6882
+count [L.N(Gp)+L.N(Gn) = 5] : , 193
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.301003
+count [L.N(Gp)+L.N(Gn) = 2] : , 9602
+count [L.N(Gp)+L.N(Gn) = 3] : , 22298
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2429
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6521
+count [L.N(Gp)+L.N(Gn) = 5] : , 150
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.314785
+count [L.N(Gp)+L.N(Gn) = 2] : , 10205
+count [L.N(Gp)+L.N(Gn) = 3] : , 22214
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2246
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6209
+count [L.N(Gp)+L.N(Gn) = 5] : , 126
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.334831
+count [L.N(Gp)+L.N(Gn) = 2] : , 11029
+count [L.N(Gp)+L.N(Gn) = 3] : , 21910
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2058
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 5908
+count [L.N(Gp)+L.N(Gn) = 5] : , 95
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 9
+0.335783
+count [L.N(Gp)+L.N(Gn) = 2] : , 11105
+count [L.N(Gp)+L.N(Gn) = 3] : , 21967
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2186
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 5645
+count [L.N(Gp)+L.N(Gn) = 5] : , 97
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 10
+0.341142
+count [L.N(Gp)+L.N(Gn) = 2] : , 11344
+count [L.N(Gp)+L.N(Gn) = 3] : , 21909
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2125
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 5528
+count [L.N(Gp)+L.N(Gn) = 5] : , 94
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.158229
+count [L.N(Gp)+L.N(Gn) = 2] : , 3613
+count [L.N(Gp)+L.N(Gn) = 3] : , 19221
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 849
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 17283
+count [L.N(Gp)+L.N(Gn) = 5] : , 34
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.0779447
+count [L.N(Gp)+L.N(Gn) = 2] : , 1385
+count [L.N(Gp)+L.N(Gn) = 3] : , 16384
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1792
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 21366
+count [L.N(Gp)+L.N(Gn) = 5] : , 73
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.0596996
+count [L.N(Gp)+L.N(Gn) = 2] : , 926
+count [L.N(Gp)+L.N(Gn) = 3] : , 14585
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2003
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 23364
+count [L.N(Gp)+L.N(Gn) = 5] : , 122
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.0524437
+count [L.N(Gp)+L.N(Gn) = 2] : , 764
+count [L.N(Gp)+L.N(Gn) = 3] : , 13804
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1941
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 24375
+count [L.N(Gp)+L.N(Gn) = 5] : , 116
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.0479351
+count [L.N(Gp)+L.N(Gn) = 2] : , 679
+count [L.N(Gp)+L.N(Gn) = 3] : , 13486
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1883
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 24843
+count [L.N(Gp)+L.N(Gn) = 5] : , 109
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.121314
+count [L.N(Gp)+L.N(Gn) = 2] : , 3090
+count [L.N(Gp)+L.N(Gn) = 3] : , 22381
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 4063
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11201
+count [L.N(Gp)+L.N(Gn) = 5] : , 265
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.150647
+count [L.N(Gp)+L.N(Gn) = 2] : , 3876
+count [L.N(Gp)+L.N(Gn) = 3] : , 21853
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 5542
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9437
+count [L.N(Gp)+L.N(Gn) = 5] : , 292
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.17312
+count [L.N(Gp)+L.N(Gn) = 2] : , 4556
+count [L.N(Gp)+L.N(Gn) = 3] : , 21761
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 5990
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8463
+count [L.N(Gp)+L.N(Gn) = 5] : , 230
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.215189
+count [L.N(Gp)+L.N(Gn) = 2] : , 6673
+count [L.N(Gp)+L.N(Gn) = 3] : , 24337
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 352
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 9606
+count [L.N(Gp)+L.N(Gn) = 5] : , 32
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.239774
+count [L.N(Gp)+L.N(Gn) = 2] : , 7550
+count [L.N(Gp)+L.N(Gn) = 3] : , 23938
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 671
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8794
+count [L.N(Gp)+L.N(Gn) = 5] : , 47
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.253195
+count [L.N(Gp)+L.N(Gn) = 2] : , 8063
+count [L.N(Gp)+L.N(Gn) = 3] : , 23782
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 801
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8293
+count [L.N(Gp)+L.N(Gn) = 5] : , 61
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.252598
+count [L.N(Gp)+L.N(Gn) = 2] : , 8022
+count [L.N(Gp)+L.N(Gn) = 3] : , 23736
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1004
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 8155
+count [L.N(Gp)+L.N(Gn) = 5] : , 83
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.267429
+count [L.N(Gp)+L.N(Gn) = 2] : , 8512
+count [L.N(Gp)+L.N(Gn) = 3] : , 23317
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1133
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7929
+count [L.N(Gp)+L.N(Gn) = 5] : , 109
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.278481
+count [L.N(Gp)+L.N(Gn) = 2] : , 8871
+count [L.N(Gp)+L.N(Gn) = 3] : , 22984
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1284
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7746
+count [L.N(Gp)+L.N(Gn) = 5] : , 115
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 7
+0.282804
+count [L.N(Gp)+L.N(Gn) = 2] : , 9050
+count [L.N(Gp)+L.N(Gn) = 3] : , 22951
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1334
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7547
+count [L.N(Gp)+L.N(Gn) = 5] : , 118
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 8
+0.307335
+count [L.N(Gp)+L.N(Gn) = 2] : , 9855
+count [L.N(Gp)+L.N(Gn) = 3] : , 22211
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1384
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7402
+count [L.N(Gp)+L.N(Gn) = 5] : , 148
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 9
+0.294678
+count [L.N(Gp)+L.N(Gn) = 2] : , 9430
+count [L.N(Gp)+L.N(Gn) = 3] : , 22571
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1619
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7217
+count [L.N(Gp)+L.N(Gn) = 5] : , 163
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 10
+0.308899
+count [L.N(Gp)+L.N(Gn) = 2] : , 9882
+count [L.N(Gp)+L.N(Gn) = 3] : , 22109
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 1868
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6972
+count [L.N(Gp)+L.N(Gn) = 5] : , 169
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 11
+0.302311
+count [L.N(Gp)+L.N(Gn) = 2] : , 9667
+count [L.N(Gp)+L.N(Gn) = 3] : , 22310
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 2017
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6838
+count [L.N(Gp)+L.N(Gn) = 5] : , 168
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.225657
+count [L.N(Gp)+L.N(Gn) = 2] : , 6978
+count [L.N(Gp)+L.N(Gn) = 3] : , 23945
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10077
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.227448
+count [L.N(Gp)+L.N(Gn) = 2] : , 7037
+count [L.N(Gp)+L.N(Gn) = 3] : , 23902
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10061
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.22791
+count [L.N(Gp)+L.N(Gn) = 2] : , 7052
+count [L.N(Gp)+L.N(Gn) = 3] : , 23890
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10058
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.228201
+count [L.N(Gp)+L.N(Gn) = 2] : , 7061
+count [L.N(Gp)+L.N(Gn) = 3] : , 23881
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10058
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.228341
+count [L.N(Gp)+L.N(Gn) = 2] : , 7066
+count [L.N(Gp)+L.N(Gn) = 3] : , 23879
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 10055
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.355056
+count [L.N(Gp)+L.N(Gn) = 2] : , 11997
+count [L.N(Gp)+L.N(Gn) = 3] : , 21792
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7211
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.365769
+count [L.N(Gp)+L.N(Gn) = 2] : , 12412
+count [L.N(Gp)+L.N(Gn) = 3] : , 21522
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7066
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.369407
+count [L.N(Gp)+L.N(Gn) = 2] : , 12616
+count [L.N(Gp)+L.N(Gn) = 3] : , 21536
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6848
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.385955
+count [L.N(Gp)+L.N(Gn) = 2] : , 13256
+count [L.N(Gp)+L.N(Gn) = 3] : , 21090
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6654
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.390916
+count [L.N(Gp)+L.N(Gn) = 2] : , 13453
+count [L.N(Gp)+L.N(Gn) = 3] : , 20961
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6586
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.399861
+count [L.N(Gp)+L.N(Gn) = 2] : , 13806
+count [L.N(Gp)+L.N(Gn) = 3] : , 20721
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6473
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.402974
+count [L.N(Gp)+L.N(Gn) = 2] : , 13930
+count [L.N(Gp)+L.N(Gn) = 3] : , 20638
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 6432
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.199939
+count [L.N(Gp)+L.N(Gn) = 2] : , 5857
+count [L.N(Gp)+L.N(Gn) = 3] : , 23437
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11706
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.199939
+count [L.N(Gp)+L.N(Gn) = 2] : , 5857
+count [L.N(Gp)+L.N(Gn) = 3] : , 23437
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11706
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.199939
+count [L.N(Gp)+L.N(Gn) = 2] : , 5857
+count [L.N(Gp)+L.N(Gn) = 3] : , 23437
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11706
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.199939
+count [L.N(Gp)+L.N(Gn) = 2] : , 5857
+count [L.N(Gp)+L.N(Gn) = 3] : , 23437
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11706
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.199939
+count [L.N(Gp)+L.N(Gn) = 2] : , 5857
+count [L.N(Gp)+L.N(Gn) = 3] : , 23437
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11706
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.344822
+count [L.N(Gp)+L.N(Gn) = 2] : , 11615
+count [L.N(Gp)+L.N(Gn) = 3] : , 22069
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7316
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.353379
+count [L.N(Gp)+L.N(Gn) = 2] : , 11958
+count [L.N(Gp)+L.N(Gn) = 3] : , 21881
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7161
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 3
+0.356477
+count [L.N(Gp)+L.N(Gn) = 2] : , 12091
+count [L.N(Gp)+L.N(Gn) = 3] : , 21827
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7082
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 4
+0.358201
+count [L.N(Gp)+L.N(Gn) = 2] : , 12162
+count [L.N(Gp)+L.N(Gn) = 3] : , 21791
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7047
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 5
+0.36019
+count [L.N(Gp)+L.N(Gn) = 2] : , 12236
+count [L.N(Gp)+L.N(Gn) = 3] : , 21735
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7029
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 6
+0.361936
+count [L.N(Gp)+L.N(Gn) = 2] : , 12304
+count [L.N(Gp)+L.N(Gn) = 3] : , 21691
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 7005
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 1
+0.206373
+count [L.N(Gp)+L.N(Gn) = 2] : , 6088
+count [L.N(Gp)+L.N(Gn) = 3] : , 23412
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11500
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
+epoch, 2
+0.207368
+count [L.N(Gp)+L.N(Gn) = 2] : , 6124
+count [L.N(Gp)+L.N(Gn) = 3] : , 23408
+count [L.N(Gp)+L.N(Gn) = 4 middle] : , 0
+count [L.N(Gp)+L.N(Gn) = 4 high low] : , 11468
+count [L.N(Gp)+L.N(Gn) = 5] : , 0
+count [L.N(Gp)+L.N(Gn) = 6] : , 0
