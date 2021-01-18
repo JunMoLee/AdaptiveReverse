@@ -642,6 +642,8 @@ vector <double> activation (100,0);
 				                           int Gth2 = param->Gth2;
 				                           int conpos = static_cast<AnalogNVM*>(arrayIH->cell[jj][k])->conductanceGp;
 				 int conneg= static_cast<AnalogNVM*>(arrayIH->cell[jj][k])->conductanceGn;
+				int normalupdateIH=0;
+				
 				
 				/* learningrateIH[0] = param->learningrate[0][0];
 							      learningrateIH[1] = param->learningrate[0][1];
@@ -666,6 +668,7 @@ vector <double> activation (100,0);
                                                   if(param->unitcellsplit == 1){
 						      if ( (0*conductancepieceIH<=conpos) && (conpos< Gth1) )
 							   {learningrateIH[2] = destructionprotector;
+							    normalupdateIH = 1;
 							   // posstopreverse=1;
 							   }
 						      
@@ -680,6 +683,7 @@ vector <double> activation (100,0);
 							
 						     if ( (0*conductancepieceIH<=conneg) && (conneg< Gth1) )
 							   {learningrateIH[3] =destructionprotector;
+							    normalupdateIH=-1;
 							   //negstopreverse=1;
 							   }
 						      
@@ -852,9 +856,11 @@ vector <double> activation (100,0);
 								{ // if + reverse update = - reverse update
 								
 								if(((batchSize+numTrain*(epochcount-1)) % (int)(param->newUpdateRate/adNur))*param->ReverseUpdate==((int)(param->newUpdateRate/adNur-1)))
-								// reverse update condition
+								// reverse update condition{
+									if(deltaWeight1[jj][k]*normalupdateIH>0) arrayIH->WriteCell(jj, k, deltaWeight1[jj][k], weight1[jj][k], param->maxWeight, param->minWeight, true, false, false, false,  learningrateIH);	
+										else
 								arrayIH->WriteCell(jj, k, deltaWeight1[jj][k], weight1[jj][k], param->maxWeight, param->minWeight, true, !(posstopreverse*negstopreverse), (!posstopreverse*negstopreverse), !posstopreverse*!negstopreverse, learningrateIH);
-									
+							    }	
 								else{ // normal update
 								arrayIH->WriteCell(jj, k, deltaWeight1[jj][k], weight1[jj][k], param->maxWeight, param->minWeight, true, false, false, false,  learningrateIH);	
 			
@@ -1205,6 +1211,7 @@ vector <double> activation (100,0);
 				                           int activationindex= bb*(param->nOutput/os) + dd;
 				              int conpos = static_cast<AnalogNVM*>(arrayHO->cell[jj][k])->conductanceGp;
 				 int conneg = static_cast<AnalogNVM*>(arrayHO->cell[jj][k])->conductanceGn;
+				int normalupdateHO=0;
 				
 				              // default setting
 				
@@ -1256,6 +1263,7 @@ vector <double> activation (100,0);
 						    
 							   if( (0<=conpos) && (conpos< Gth1) )
 							   {learningrateHO[2] = destructionprotector;
+							    normalupdateHO=1;
 							  // posstopreverse=1;
 							   }
 							   
@@ -1272,6 +1280,7 @@ vector <double> activation (100,0);
 							
 							   if( (0<=conneg) && (conneg< Gth1) )
 							   {learningrateHO[3] =destructionprotector;
+							    normalupdateHO=-1;
 							  // negstopreverse=1;
 							   }
 							    
@@ -1422,9 +1431,15 @@ vector <double> activation (100,0);
 									
 								if(((batchSize+numTrain*(epochcount-1)) % (int)(param->newUpdateRate/adNur))*param->ReverseUpdate==((int)(param->newUpdateRate/adNur-1)))
 								// reverse update condition
-								arrayHO->WriteCell(jj, k, deltaWeight2[jj][k], weight2[jj][k], param->maxWeight, param->minWeight, true, !(posstopreverse*negstopreverse) , (!posstopreverse*negstopreverse), !posstopreverse*!negstopreverse, learningrateHO);
+								{if( deltaWeight2[jj][k]*normalupdateHO >0)  arrayHO->WriteCell(jj, k, deltaWeight2[jj][k], weight2[jj][k], param->maxWeight, param->minWeight, true, false, false, false,  learningrateHO);
+										
+								 else
 									
+									arrayHO->WriteCell(jj, k, deltaWeight2[jj][k], weight2[jj][k], param->maxWeight, param->minWeight, true, !(posstopreverse*negstopreverse) , (!posstopreverse*negstopreverse), !posstopreverse*!negstopreverse, learningrateHO);
+								}	
 								else{ // normal update
+									
+						
 								arrayHO->WriteCell(jj, k, deltaWeight2[jj][k], weight2[jj][k], param->maxWeight, param->minWeight, true, false, false, false,  learningrateHO);	
 			
 								}
